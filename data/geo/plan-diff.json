@@ -1,0 +1,581 @@
+{
+ "method": "50x50 grid sample per state; points on land in both plans",
+ "changed_threshold": 0.02,
+ "diffs": [
+  {
+   "state": "AL",
+   "from": "AL-cd119-census2025",
+   "to": "AL-cd120-tiger2026",
+   "sampled": 1843,
+   "moved_fraction": 0.14867064568638091,
+   "changed_districts": [
+    1,
+    2,
+    6,
+    7
+   ]
+  },
+  {
+   "state": "AK",
+   "from": "AK-cd119-census2025",
+   "to": "AK-cd120-tiger2026",
+   "sampled": 597,
+   "moved_fraction": 0,
+   "changed_districts": []
+  },
+  {
+   "state": "AZ",
+   "from": "AZ-cd119-census2025",
+   "to": "AZ-cd120-tiger2026",
+   "sampled": 2205,
+   "moved_fraction": 0.00045351473922902497,
+   "changed_districts": []
+  },
+  {
+   "state": "AR",
+   "from": "AR-cd119-census2025",
+   "to": "AR-cd120-tiger2026",
+   "sampled": 1956,
+   "moved_fraction": 0,
+   "changed_districts": []
+  },
+  {
+   "state": "CA",
+   "from": "CA-cd119-census2025",
+   "to": "CA-cd120-tiger2026",
+   "sampled": 1070,
+   "moved_fraction": 0.34953271028037386,
+   "changed_districts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    13,
+    14,
+    18,
+    20,
+    22,
+    24,
+    25,
+    27,
+    28,
+    29,
+    40,
+    41,
+    48,
+    50,
+    51
+   ]
+  },
+  {
+   "state": "CO",
+   "from": "CO-cd119-census2025",
+   "to": "CO-cd120-tiger2026",
+   "sampled": 2500,
+   "moved_fraction": 0.0008,
+   "changed_districts": []
+  },
+  {
+   "state": "CT",
+   "from": "CT-cd119-census2025",
+   "to": "CT-cd120-tiger2026",
+   "sampled": 1636,
+   "moved_fraction": 0.0012224938875305623,
+   "changed_districts": []
+  },
+  {
+   "state": "DE",
+   "from": "DE-cd119-census2025",
+   "to": "DE-cd120-tiger2026",
+   "sampled": 1212,
+   "moved_fraction": 0,
+   "changed_districts": []
+  },
+  {
+   "state": "DC",
+   "from": "DC-cd119-census2025",
+   "to": "DC-cd120-tiger2026",
+   "sampled": 1055,
+   "moved_fraction": 0,
+   "changed_districts": []
+  },
+  {
+   "state": "FL",
+   "from": "FL-cd119-census2025",
+   "to": "FL-cd120-tiger2026",
+   "sampled": 691,
+   "moved_fraction": 0.2460202604920405,
+   "changed_districts": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    22,
+    23,
+    25,
+    26
+   ]
+  },
+  {
+   "state": "GA",
+   "from": "GA-cd119-census2025",
+   "to": "GA-cd120-tiger2026",
+   "sampled": 1641,
+   "moved_fraction": 0.0018281535648994515,
+   "changed_districts": []
+  },
+  {
+   "state": "HI",
+   "from": "HI-cd119-census2025",
+   "to": "HI-cd120-tiger2026",
+   "sampled": 16,
+   "moved_fraction": 0,
+   "changed_districts": []
+  },
+  {
+   "state": "ID",
+   "from": "ID-cd119-census2025",
+   "to": "ID-cd120-tiger2026",
+   "sampled": 1401,
+   "moved_fraction": 0.0007137758743754461,
+   "changed_districts": []
+  },
+  {
+   "state": "IL",
+   "from": "IL-cd119-census2025",
+   "to": "IL-cd120-tiger2026",
+   "sampled": 1741,
+   "moved_fraction": 0.0011487650775416428,
+   "changed_districts": [
+    7
+   ]
+  },
+  {
+   "state": "IN",
+   "from": "IN-cd119-census2025",
+   "to": "IN-cd120-tiger2026",
+   "sampled": 1862,
+   "moved_fraction": 0,
+   "changed_districts": []
+  },
+  {
+   "state": "IA",
+   "from": "IA-cd119-census2025",
+   "to": "IA-cd120-tiger2026",
+   "sampled": 1963,
+   "moved_fraction": 0,
+   "changed_districts": []
+  },
+  {
+   "state": "KS",
+   "from": "KS-cd119-census2025",
+   "to": "KS-cd120-tiger2026",
+   "sampled": 2461,
+   "moved_fraction": 0,
+   "changed_districts": []
+  },
+  {
+   "state": "KY",
+   "from": "KY-cd119-census2025",
+   "to": "KY-cd120-tiger2026",
+   "sampled": 1323,
+   "moved_fraction": 0.0007558578987150416,
+   "changed_districts": []
+  },
+  {
+   "state": "LA",
+   "from": "LA-cd119-census2025",
+   "to": "LA-cd120-tiger2026",
+   "sampled": 1304,
+   "moved_fraction": 0.25076687116564417,
+   "changed_districts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "state": "ME",
+   "from": "ME-cd119-census2025",
+   "to": "ME-cd120-tiger2026",
+   "sampled": 1272,
+   "moved_fraction": 0,
+   "changed_districts": []
+  },
+  {
+   "state": "MD",
+   "from": "MD-cd119-census2025",
+   "to": "MD-cd120-tiger2026",
+   "sampled": 838,
+   "moved_fraction": 0.0059665871121718375,
+   "changed_districts": [
+    4
+   ]
+  },
+  {
+   "state": "MA",
+   "from": "MA-cd119-census2025",
+   "to": "MA-cd120-tiger2026",
+   "sampled": 931,
+   "moved_fraction": 0.0053705692803437165,
+   "changed_districts": [
+    5
+   ]
+  },
+  {
+   "state": "MI",
+   "from": "MI-cd119-census2025",
+   "to": "MI-cd120-tiger2026",
+   "sampled": 792,
+   "moved_fraction": 0,
+   "changed_districts": []
+  },
+  {
+   "state": "MN",
+   "from": "MN-cd119-census2025",
+   "to": "MN-cd120-tiger2026",
+   "sampled": 1409,
+   "moved_fraction": 0.0021291696238466998,
+   "changed_districts": []
+  },
+  {
+   "state": "MS",
+   "from": "MS-cd119-census2025",
+   "to": "MS-cd120-tiger2026",
+   "sampled": 1712,
+   "moved_fraction": 0,
+   "changed_districts": []
+  },
+  {
+   "state": "MO",
+   "from": "MO-cd119-census2025",
+   "to": "MO-cd120-tiger2026",
+   "sampled": 1528,
+   "moved_fraction": 0.2100785340314136,
+   "changed_districts": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "state": "MT",
+   "from": "MT-cd119-census2025",
+   "to": "MT-cd120-tiger2026",
+   "sampled": 2019,
+   "moved_fraction": 0,
+   "changed_districts": []
+  },
+  {
+   "state": "NE",
+   "from": "NE-cd119-census2025",
+   "to": "NE-cd120-tiger2026",
+   "sampled": 2061,
+   "moved_fraction": 0,
+   "changed_districts": []
+  },
+  {
+   "state": "NV",
+   "from": "NV-cd119-census2025",
+   "to": "NV-cd120-tiger2026",
+   "sampled": 1797,
+   "moved_fraction": 0.0005564830272676684,
+   "changed_districts": []
+  },
+  {
+   "state": "NH",
+   "from": "NH-cd119-census2025",
+   "to": "NH-cd120-tiger2026",
+   "sampled": 1320,
+   "moved_fraction": 0,
+   "changed_districts": []
+  },
+  {
+   "state": "NJ",
+   "from": "NJ-cd119-census2025",
+   "to": "NJ-cd120-tiger2026",
+   "sampled": 1229,
+   "moved_fraction": 0.007323026851098454,
+   "changed_districts": [
+    6,
+    9
+   ]
+  },
+  {
+   "state": "NM",
+   "from": "NM-cd119-census2025",
+   "to": "NM-cd120-tiger2026",
+   "sampled": 2258,
+   "moved_fraction": 0,
+   "changed_districts": []
+  },
+  {
+   "state": "NY",
+   "from": "NY-cd119-census2025",
+   "to": "NY-cd120-tiger2026",
+   "sampled": 963,
+   "moved_fraction": 0,
+   "changed_districts": []
+  },
+  {
+   "state": "NC",
+   "from": "NC-cd119-census2025",
+   "to": "NC-cd120-tiger2026",
+   "sampled": 1254,
+   "moved_fraction": 0.10446570972886762,
+   "changed_districts": [
+    1,
+    3,
+    12
+   ]
+  },
+  {
+   "state": "ND",
+   "from": "ND-cd119-census2025",
+   "to": "ND-cd120-tiger2026",
+   "sampled": 2383,
+   "moved_fraction": 0,
+   "changed_districts": []
+  },
+  {
+   "state": "OH",
+   "from": "OH-cd119-census2025",
+   "to": "OH-cd120-tiger2026",
+   "sampled": 1677,
+   "moved_fraction": 0.23792486583184258,
+   "changed_districts": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    15
+   ]
+  },
+  {
+   "state": "OK",
+   "from": "OK-cd119-census2025",
+   "to": "OK-cd120-tiger2026",
+   "sampled": 1536,
+   "moved_fraction": 0,
+   "changed_districts": []
+  },
+  {
+   "state": "OR",
+   "from": "OR-cd119-census2025",
+   "to": "OR-cd120-tiger2026",
+   "sampled": 2001,
+   "moved_fraction": 0,
+   "changed_districts": []
+  },
+  {
+   "state": "PA",
+   "from": "PA-cd119-census2025",
+   "to": "PA-cd120-tiger2026",
+   "sampled": 1933,
+   "moved_fraction": 0.0015519917227108122,
+   "changed_districts": [
+    12
+   ]
+  },
+  {
+   "state": "RI",
+   "from": "RI-cd119-census2025",
+   "to": "RI-cd120-tiger2026",
+   "sampled": 1012,
+   "moved_fraction": 0.001976284584980237,
+   "changed_districts": []
+  },
+  {
+   "state": "SC",
+   "from": "SC-cd119-census2025",
+   "to": "SC-cd120-tiger2026",
+   "sampled": 1259,
+   "moved_fraction": 0.004765687053216839,
+   "changed_districts": []
+  },
+  {
+   "state": "SD",
+   "from": "SD-cd119-census2025",
+   "to": "SD-cd120-tiger2026",
+   "sampled": 2154,
+   "moved_fraction": 0,
+   "changed_districts": []
+  },
+  {
+   "state": "TN",
+   "from": "TN-cd119-census2025",
+   "to": "TN-cd120-tiger2026",
+   "sampled": 1866,
+   "moved_fraction": 0.40514469453376206,
+   "changed_districts": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "state": "TX",
+   "from": "TX-cd119-census2025",
+   "to": "TX-cd120-tiger2026",
+   "sampled": 1157,
+   "moved_fraction": 0.1797752808988764,
+   "changed_districts": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    14,
+    15,
+    17,
+    18,
+    20,
+    21,
+    22,
+    23,
+    25,
+    26,
+    27,
+    28,
+    29,
+    31,
+    35,
+    36,
+    37
+   ]
+  },
+  {
+   "state": "UT",
+   "from": "UT-cd119-census2025",
+   "to": "UT-cd120-tiger2026",
+   "sampled": 2300,
+   "moved_fraction": 0.6152173913043478,
+   "changed_districts": [
+    1,
+    2,
+    4
+   ]
+  },
+  {
+   "state": "VT",
+   "from": "VT-cd119-census2025",
+   "to": "VT-cd120-tiger2026",
+   "sampled": 1556,
+   "moved_fraction": 0,
+   "changed_districts": []
+  },
+  {
+   "state": "VA",
+   "from": "VA-cd119-census2025",
+   "to": "VA-cd120-tiger2026",
+   "sampled": 1074,
+   "moved_fraction": 0.00186219739292365,
+   "changed_districts": []
+  },
+  {
+   "state": "WA",
+   "from": "WA-cd119-census2025",
+   "to": "WA-cd120-tiger2026",
+   "sampled": 1889,
+   "moved_fraction": 0.0005293806246691371,
+   "changed_districts": []
+  },
+  {
+   "state": "WV",
+   "from": "WV-cd119-census2025",
+   "to": "WV-cd120-tiger2026",
+   "sampled": 963,
+   "moved_fraction": 0.003115264797507788,
+   "changed_districts": []
+  },
+  {
+   "state": "WI",
+   "from": "WI-cd119-census2025",
+   "to": "WI-cd120-tiger2026",
+   "sampled": 1290,
+   "moved_fraction": 0.0007751937984496124,
+   "changed_districts": []
+  },
+  {
+   "state": "WY",
+   "from": "WY-cd119-census2025",
+   "to": "WY-cd120-tiger2026",
+   "sampled": 2500,
+   "moved_fraction": 0,
+   "changed_districts": []
+  },
+  {
+   "state": "AS",
+   "from": "AS-cd119-census2025",
+   "to": "AS-cd120-tiger2026",
+   "sampled": 2,
+   "moved_fraction": 0,
+   "changed_districts": []
+  },
+  {
+   "state": "GU",
+   "from": "GU-cd119-census2025",
+   "to": "GU-cd120-tiger2026",
+   "sampled": 502,
+   "moved_fraction": 0,
+   "changed_districts": []
+  },
+  {
+   "state": "MP",
+   "from": "MP-cd119-census2025",
+   "to": "MP-cd120-tiger2026",
+   "sampled": 8,
+   "moved_fraction": 0,
+   "changed_districts": []
+  },
+  {
+   "state": "PR",
+   "from": "PR-cd119-census2025",
+   "to": "PR-cd120-tiger2026",
+   "sampled": 920,
+   "moved_fraction": 0,
+   "changed_districts": []
+  },
+  {
+   "state": "VI",
+   "from": "VI-cd119-census2025",
+   "to": "VI-cd120-tiger2026",
+   "sampled": 123,
+   "moved_fraction": 0,
+   "changed_districts": []
+  }
+ ]
+}

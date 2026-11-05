@@ -11,10 +11,18 @@
     "validate": "tsx src/run-validate.ts"
   },
   "devDependencies": {
+    "@types/d3-geo": "^3.1.1",
+    "@types/geojson": "^7946.0.16",
     "@types/node": "^22.0.0",
+    "@types/topojson-client": "^3.1.5",
     "mapshaper": "^0.7.101",
     "tsx": "^4.19.0",
     "typescript": "^5.7.0",
     "vitest": "^5.1.0"
+  },
+  "dependencies": {
+    "d3-geo": "^3.1.2",
+    "node-html-parser": "^9.0.6",
+    "topojson-client": "^3.1.0"
   }
 }

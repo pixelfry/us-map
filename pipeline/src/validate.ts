@@ -1,6 +1,6 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
-import type { Plan } from "./build-geo.js";
+import type { Plan } from "./geo-lib.js";
 import type { Member } from "./members.js";
 
 export interface ValidationResult {

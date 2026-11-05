@@ -3,7 +3,8 @@ import { describe, expect, it } from "vitest";
 import { loadFromDisk, validate } from "../src/validate.js";
 
 // Runs against the committed real data (data/geo + data/generated/members.json).
-const { plans, topologies, members } = loadFromDisk(resolve(import.meta.dirname, "../.."));
+const { plans: allPlans, topologies, members } = loadFromDisk(resolve(import.meta.dirname, "../.."));
+const plans = allPlans.filter((p) => p.status === "active"); // current Congress; the pending 120th plans are tested in incoming.test.ts
 
 describe("committed data", () => {
   it("has a plan for every state and 441 districts (435 + 6 delegates)", () => {

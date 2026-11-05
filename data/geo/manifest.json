@@ -15,6 +15,20 @@
    "file": "plans/AK/AK-cd119-census2025.topo.json"
   },
   {
+   "plan_id": "AK-cd120-tiger2026",
+   "state": "AK",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_02_cd120.zip",
+   "source_sha256": "eb44067aba01d4e8f4513700cea0f0cf4be84f9f2e8ff41ca138f6938b2ca495",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "AK-cd119-census2025",
+   "status": "pending",
+   "district_count": 1,
+   "file": "plans/AK/AK-cd120-tiger2026.topo.json"
+  },
+  {
    "plan_id": "AL-cd119-census2025",
    "state": "AL",
    "source": "Census cartographic boundary file cb_2025_us_cd119_500k",
@@ -27,6 +41,20 @@
    "status": "active",
    "district_count": 7,
    "file": "plans/AL/AL-cd119-census2025.topo.json"
+  },
+  {
+   "plan_id": "AL-cd120-tiger2026",
+   "state": "AL",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_01_cd120.zip",
+   "source_sha256": "0fff80891184520f63889f24d2dbee39ae3489358399702d8c3470d55ae9a508",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "AL-cd119-census2025",
+   "status": "pending",
+   "district_count": 7,
+   "file": "plans/AL/AL-cd120-tiger2026.topo.json"
   },
   {
    "plan_id": "AR-cd119-census2025",
@@ -43,6 +71,20 @@
    "file": "plans/AR/AR-cd119-census2025.topo.json"
   },
   {
+   "plan_id": "AR-cd120-tiger2026",
+   "state": "AR",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_05_cd120.zip",
+   "source_sha256": "d6c34a891f1d9af78e1fcfe91931d3f6939925a572815422062a13460b6ddcb1",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "AR-cd119-census2025",
+   "status": "pending",
+   "district_count": 4,
+   "file": "plans/AR/AR-cd120-tiger2026.topo.json"
+  },
+  {
    "plan_id": "AS-cd119-census2025",
    "state": "AS",
    "source": "Census cartographic boundary file cb_2025_us_cd119_500k",
@@ -55,6 +97,20 @@
    "status": "active",
    "district_count": 1,
    "file": "plans/AS/AS-cd119-census2025.topo.json"
+  },
+  {
+   "plan_id": "AS-cd120-tiger2026",
+   "state": "AS",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_60_cd120.zip",
+   "source_sha256": "ae6caac4386f3abbcbe2bd2a1ec0bcf3b1ccca16c9575801692cba1410db7a8b",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "AS-cd119-census2025",
+   "status": "pending",
+   "district_count": 1,
+   "file": "plans/AS/AS-cd120-tiger2026.topo.json"
   },
   {
    "plan_id": "AZ-cd119-census2025",
@@ -71,6 +127,20 @@
    "file": "plans/AZ/AZ-cd119-census2025.topo.json"
   },
   {
+   "plan_id": "AZ-cd120-tiger2026",
+   "state": "AZ",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_04_cd120.zip",
+   "source_sha256": "1a908f7fd5f69989836f64aad23af20fef38cc2bd4fc8ccd183036b4f0f01431",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "AZ-cd119-census2025",
+   "status": "pending",
+   "district_count": 9,
+   "file": "plans/AZ/AZ-cd120-tiger2026.topo.json"
+  },
+  {
    "plan_id": "CA-cd119-census2025",
    "state": "CA",
    "source": "Census cartographic boundary file cb_2025_us_cd119_500k",
@@ -83,6 +153,20 @@
    "status": "active",
    "district_count": 52,
    "file": "plans/CA/CA-cd119-census2025.topo.json"
+  },
+  {
+   "plan_id": "CA-cd120-tiger2026",
+   "state": "CA",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_06_cd120.zip",
+   "source_sha256": "5d441c64cb33ba3f6d8dee1be2ce5f7c1efa502f245ac67c36344de2567d4269",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "CA-cd119-census2025",
+   "status": "pending",
+   "district_count": 52,
+   "file": "plans/CA/CA-cd120-tiger2026.topo.json"
   },
   {
    "plan_id": "CO-cd119-census2025",
@@ -99,6 +183,20 @@
    "file": "plans/CO/CO-cd119-census2025.topo.json"
   },
   {
+   "plan_id": "CO-cd120-tiger2026",
+   "state": "CO",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_08_cd120.zip",
+   "source_sha256": "0df19a54f14269de3268b31ff73f01b69dc4ecd2378dc538e97faaad605bc19e",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "CO-cd119-census2025",
+   "status": "pending",
+   "district_count": 8,
+   "file": "plans/CO/CO-cd120-tiger2026.topo.json"
+  },
+  {
    "plan_id": "CT-cd119-census2025",
    "state": "CT",
    "source": "Census cartographic boundary file cb_2025_us_cd119_500k",
@@ -111,6 +209,20 @@
    "status": "active",
    "district_count": 5,
    "file": "plans/CT/CT-cd119-census2025.topo.json"
+  },
+  {
+   "plan_id": "CT-cd120-tiger2026",
+   "state": "CT",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_09_cd120.zip",
+   "source_sha256": "3012701bae6d745c083f69599ab6a4f6c0ad3e89e0c837738895b652a4a614c3",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "CT-cd119-census2025",
+   "status": "pending",
+   "district_count": 5,
+   "file": "plans/CT/CT-cd120-tiger2026.topo.json"
   },
   {
    "plan_id": "DC-cd119-census2025",
@@ -127,6 +239,20 @@
    "file": "plans/DC/DC-cd119-census2025.topo.json"
   },
   {
+   "plan_id": "DC-cd120-tiger2026",
+   "state": "DC",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_11_cd120.zip",
+   "source_sha256": "fcba95a2980603f749f7ce57e447e24c65fd9c763f578616e8f901920fde0e86",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "DC-cd119-census2025",
+   "status": "pending",
+   "district_count": 1,
+   "file": "plans/DC/DC-cd120-tiger2026.topo.json"
+  },
+  {
    "plan_id": "DE-cd119-census2025",
    "state": "DE",
    "source": "Census cartographic boundary file cb_2025_us_cd119_500k",
@@ -139,6 +265,20 @@
    "status": "active",
    "district_count": 1,
    "file": "plans/DE/DE-cd119-census2025.topo.json"
+  },
+  {
+   "plan_id": "DE-cd120-tiger2026",
+   "state": "DE",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_10_cd120.zip",
+   "source_sha256": "7282cf2162be72b427554530762ac4a68ed1e1396f487d32571d38e43dec4ebd",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "DE-cd119-census2025",
+   "status": "pending",
+   "district_count": 1,
+   "file": "plans/DE/DE-cd120-tiger2026.topo.json"
   },
   {
    "plan_id": "FL-cd119-census2025",
@@ -155,6 +295,20 @@
    "file": "plans/FL/FL-cd119-census2025.topo.json"
   },
   {
+   "plan_id": "FL-cd120-tiger2026",
+   "state": "FL",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_12_cd120.zip",
+   "source_sha256": "7d22cba78f6553e192fca414e78f96c07d2a38e96cdd6450e39b9c3ceed9a2f4",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "FL-cd119-census2025",
+   "status": "pending",
+   "district_count": 28,
+   "file": "plans/FL/FL-cd120-tiger2026.topo.json"
+  },
+  {
    "plan_id": "GA-cd119-census2025",
    "state": "GA",
    "source": "Census cartographic boundary file cb_2025_us_cd119_500k",
@@ -167,6 +321,20 @@
    "status": "active",
    "district_count": 14,
    "file": "plans/GA/GA-cd119-census2025.topo.json"
+  },
+  {
+   "plan_id": "GA-cd120-tiger2026",
+   "state": "GA",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_13_cd120.zip",
+   "source_sha256": "414774fe1cb78cb292816646898b59d1d43b64f3c1312015a85bc57d26b1fca9",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "GA-cd119-census2025",
+   "status": "pending",
+   "district_count": 14,
+   "file": "plans/GA/GA-cd120-tiger2026.topo.json"
   },
   {
    "plan_id": "GU-cd119-census2025",
@@ -183,6 +351,20 @@
    "file": "plans/GU/GU-cd119-census2025.topo.json"
   },
   {
+   "plan_id": "GU-cd120-tiger2026",
+   "state": "GU",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_66_cd120.zip",
+   "source_sha256": "b59c5aab76b3cb4a60be669eb37a615ff1ee006385fd3d5bc90fdd6f0443f71e",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "GU-cd119-census2025",
+   "status": "pending",
+   "district_count": 1,
+   "file": "plans/GU/GU-cd120-tiger2026.topo.json"
+  },
+  {
    "plan_id": "HI-cd119-census2025",
    "state": "HI",
    "source": "Census cartographic boundary file cb_2025_us_cd119_500k",
@@ -195,6 +377,20 @@
    "status": "active",
    "district_count": 2,
    "file": "plans/HI/HI-cd119-census2025.topo.json"
+  },
+  {
+   "plan_id": "HI-cd120-tiger2026",
+   "state": "HI",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_15_cd120.zip",
+   "source_sha256": "5097bacbcc3e6738f450cd26ad0d72670a66246715790ed8772772a48c230a8a",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "HI-cd119-census2025",
+   "status": "pending",
+   "district_count": 2,
+   "file": "plans/HI/HI-cd120-tiger2026.topo.json"
   },
   {
    "plan_id": "IA-cd119-census2025",
@@ -211,6 +407,20 @@
    "file": "plans/IA/IA-cd119-census2025.topo.json"
   },
   {
+   "plan_id": "IA-cd120-tiger2026",
+   "state": "IA",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_19_cd120.zip",
+   "source_sha256": "09df98632953bf96763db4064f0e18ef9b821dd8af29024b5914db9a5379c0b8",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "IA-cd119-census2025",
+   "status": "pending",
+   "district_count": 4,
+   "file": "plans/IA/IA-cd120-tiger2026.topo.json"
+  },
+  {
    "plan_id": "ID-cd119-census2025",
    "state": "ID",
    "source": "Census cartographic boundary file cb_2025_us_cd119_500k",
@@ -223,6 +433,20 @@
    "status": "active",
    "district_count": 2,
    "file": "plans/ID/ID-cd119-census2025.topo.json"
+  },
+  {
+   "plan_id": "ID-cd120-tiger2026",
+   "state": "ID",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_16_cd120.zip",
+   "source_sha256": "f281caca4ab1b294dba300ca52b8272f79ebadb6a5b066316a4bb09a6fd8dc5e",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "ID-cd119-census2025",
+   "status": "pending",
+   "district_count": 2,
+   "file": "plans/ID/ID-cd120-tiger2026.topo.json"
   },
   {
    "plan_id": "IL-cd119-census2025",
@@ -239,6 +463,20 @@
    "file": "plans/IL/IL-cd119-census2025.topo.json"
   },
   {
+   "plan_id": "IL-cd120-tiger2026",
+   "state": "IL",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_17_cd120.zip",
+   "source_sha256": "035d698668fb51d34dbbe10c8340d4b2d9f99890e9f4dedf019c7da0a36c078b",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "IL-cd119-census2025",
+   "status": "pending",
+   "district_count": 17,
+   "file": "plans/IL/IL-cd120-tiger2026.topo.json"
+  },
+  {
    "plan_id": "IN-cd119-census2025",
    "state": "IN",
    "source": "Census cartographic boundary file cb_2025_us_cd119_500k",
@@ -251,6 +489,20 @@
    "status": "active",
    "district_count": 9,
    "file": "plans/IN/IN-cd119-census2025.topo.json"
+  },
+  {
+   "plan_id": "IN-cd120-tiger2026",
+   "state": "IN",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_18_cd120.zip",
+   "source_sha256": "441ff14b94295a061e0481648bbd6e2708e6341f1af79e7f45fb58e2574c52fe",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "IN-cd119-census2025",
+   "status": "pending",
+   "district_count": 9,
+   "file": "plans/IN/IN-cd120-tiger2026.topo.json"
   },
   {
    "plan_id": "KS-cd119-census2025",
@@ -267,6 +519,20 @@
    "file": "plans/KS/KS-cd119-census2025.topo.json"
   },
   {
+   "plan_id": "KS-cd120-tiger2026",
+   "state": "KS",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_20_cd120.zip",
+   "source_sha256": "62110fe0d88ffd0a283f52aaa3c408d26888af482d45ff6be4ee8b31132b0db8",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "KS-cd119-census2025",
+   "status": "pending",
+   "district_count": 4,
+   "file": "plans/KS/KS-cd120-tiger2026.topo.json"
+  },
+  {
    "plan_id": "KY-cd119-census2025",
    "state": "KY",
    "source": "Census cartographic boundary file cb_2025_us_cd119_500k",
@@ -279,6 +545,20 @@
    "status": "active",
    "district_count": 6,
    "file": "plans/KY/KY-cd119-census2025.topo.json"
+  },
+  {
+   "plan_id": "KY-cd120-tiger2026",
+   "state": "KY",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_21_cd120.zip",
+   "source_sha256": "a46476c2ece2b436efd48591c40ad20b61a33f55b3b6d11a6b375871e438101f",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "KY-cd119-census2025",
+   "status": "pending",
+   "district_count": 6,
+   "file": "plans/KY/KY-cd120-tiger2026.topo.json"
   },
   {
    "plan_id": "LA-cd119-census2025",
@@ -295,6 +575,20 @@
    "file": "plans/LA/LA-cd119-census2025.topo.json"
   },
   {
+   "plan_id": "LA-cd120-tiger2026",
+   "state": "LA",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_22_cd120.zip",
+   "source_sha256": "3e614ea60510318c5e30a62f7e33a47e672b335e060b3c8adf6de1d1299e2208",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "LA-cd119-census2025",
+   "status": "pending",
+   "district_count": 6,
+   "file": "plans/LA/LA-cd120-tiger2026.topo.json"
+  },
+  {
    "plan_id": "MA-cd119-census2025",
    "state": "MA",
    "source": "Census cartographic boundary file cb_2025_us_cd119_500k",
@@ -307,6 +601,20 @@
    "status": "active",
    "district_count": 9,
    "file": "plans/MA/MA-cd119-census2025.topo.json"
+  },
+  {
+   "plan_id": "MA-cd120-tiger2026",
+   "state": "MA",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_25_cd120.zip",
+   "source_sha256": "ef0deb8cc91e6e8e031011ac0510af7bb366fdabc098a5f02224c6e7d371254b",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "MA-cd119-census2025",
+   "status": "pending",
+   "district_count": 9,
+   "file": "plans/MA/MA-cd120-tiger2026.topo.json"
   },
   {
    "plan_id": "MD-cd119-census2025",
@@ -323,6 +631,20 @@
    "file": "plans/MD/MD-cd119-census2025.topo.json"
   },
   {
+   "plan_id": "MD-cd120-tiger2026",
+   "state": "MD",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_24_cd120.zip",
+   "source_sha256": "3c75f0a8ff0a74e1345615e1ef7858feffce85b2a7c7eefedd424cc4edf3be57",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "MD-cd119-census2025",
+   "status": "pending",
+   "district_count": 8,
+   "file": "plans/MD/MD-cd120-tiger2026.topo.json"
+  },
+  {
    "plan_id": "ME-cd119-census2025",
    "state": "ME",
    "source": "Census cartographic boundary file cb_2025_us_cd119_500k",
@@ -335,6 +657,20 @@
    "status": "active",
    "district_count": 2,
    "file": "plans/ME/ME-cd119-census2025.topo.json"
+  },
+  {
+   "plan_id": "ME-cd120-tiger2026",
+   "state": "ME",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_23_cd120.zip",
+   "source_sha256": "830c5b3baf554894f9b42af4ac5a9500cf2cd84b6dbad3b75eb9d64ad7d407d0",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "ME-cd119-census2025",
+   "status": "pending",
+   "district_count": 2,
+   "file": "plans/ME/ME-cd120-tiger2026.topo.json"
   },
   {
    "plan_id": "MI-cd119-census2025",
@@ -351,6 +687,20 @@
    "file": "plans/MI/MI-cd119-census2025.topo.json"
   },
   {
+   "plan_id": "MI-cd120-tiger2026",
+   "state": "MI",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_26_cd120.zip",
+   "source_sha256": "fc75ae19a91fb84811e5c7fcdb6460091bc2e73fbe8d6ea1c8df60b2a40e096d",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "MI-cd119-census2025",
+   "status": "pending",
+   "district_count": 13,
+   "file": "plans/MI/MI-cd120-tiger2026.topo.json"
+  },
+  {
    "plan_id": "MN-cd119-census2025",
    "state": "MN",
    "source": "Census cartographic boundary file cb_2025_us_cd119_500k",
@@ -363,6 +713,20 @@
    "status": "active",
    "district_count": 8,
    "file": "plans/MN/MN-cd119-census2025.topo.json"
+  },
+  {
+   "plan_id": "MN-cd120-tiger2026",
+   "state": "MN",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_27_cd120.zip",
+   "source_sha256": "d2f27a2a36d63a146e8faebb19974ab9ec1cd1fc1529f97a9e7795b7a95cc761",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "MN-cd119-census2025",
+   "status": "pending",
+   "district_count": 8,
+   "file": "plans/MN/MN-cd120-tiger2026.topo.json"
   },
   {
    "plan_id": "MO-cd119-census2025",
@@ -379,6 +743,20 @@
    "file": "plans/MO/MO-cd119-census2025.topo.json"
   },
   {
+   "plan_id": "MO-cd120-tiger2026",
+   "state": "MO",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_29_cd120.zip",
+   "source_sha256": "630f7e2fa275e32e7b3fde92c8807234e3372b7ed508f1c645be5a1d9264d9f3",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "MO-cd119-census2025",
+   "status": "pending",
+   "district_count": 8,
+   "file": "plans/MO/MO-cd120-tiger2026.topo.json"
+  },
+  {
    "plan_id": "MP-cd119-census2025",
    "state": "MP",
    "source": "Census cartographic boundary file cb_2025_us_cd119_500k",
@@ -391,6 +769,20 @@
    "status": "active",
    "district_count": 1,
    "file": "plans/MP/MP-cd119-census2025.topo.json"
+  },
+  {
+   "plan_id": "MP-cd120-tiger2026",
+   "state": "MP",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_69_cd120.zip",
+   "source_sha256": "e1c0f4ef8c69e486a98a6807868de88dcd94b387d31ea94232dfaca174f22ce8",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "MP-cd119-census2025",
+   "status": "pending",
+   "district_count": 1,
+   "file": "plans/MP/MP-cd120-tiger2026.topo.json"
   },
   {
    "plan_id": "MS-cd119-census2025",
@@ -407,6 +799,20 @@
    "file": "plans/MS/MS-cd119-census2025.topo.json"
   },
   {
+   "plan_id": "MS-cd120-tiger2026",
+   "state": "MS",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_28_cd120.zip",
+   "source_sha256": "40a80c7df0eeaa08b795e916548f0d82fac2f990b8ddcdcaf74753ca27d8de5f",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "MS-cd119-census2025",
+   "status": "pending",
+   "district_count": 4,
+   "file": "plans/MS/MS-cd120-tiger2026.topo.json"
+  },
+  {
    "plan_id": "MT-cd119-census2025",
    "state": "MT",
    "source": "Census cartographic boundary file cb_2025_us_cd119_500k",
@@ -419,6 +825,20 @@
    "status": "active",
    "district_count": 2,
    "file": "plans/MT/MT-cd119-census2025.topo.json"
+  },
+  {
+   "plan_id": "MT-cd120-tiger2026",
+   "state": "MT",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_30_cd120.zip",
+   "source_sha256": "d094422db502b0a5940ed2b97a5eb8b992770e93f4e666afc83eb1b4d89300f4",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "MT-cd119-census2025",
+   "status": "pending",
+   "district_count": 2,
+   "file": "plans/MT/MT-cd120-tiger2026.topo.json"
   },
   {
    "plan_id": "NC-cd119-census2025",
@@ -435,6 +855,20 @@
    "file": "plans/NC/NC-cd119-census2025.topo.json"
   },
   {
+   "plan_id": "NC-cd120-tiger2026",
+   "state": "NC",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_37_cd120.zip",
+   "source_sha256": "13f0680937b2fb426c50b07bfd6dd473a541cee69fa39d512759dd03e787b9ef",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "NC-cd119-census2025",
+   "status": "pending",
+   "district_count": 14,
+   "file": "plans/NC/NC-cd120-tiger2026.topo.json"
+  },
+  {
    "plan_id": "ND-cd119-census2025",
    "state": "ND",
    "source": "Census cartographic boundary file cb_2025_us_cd119_500k",
@@ -447,6 +881,20 @@
    "status": "active",
    "district_count": 1,
    "file": "plans/ND/ND-cd119-census2025.topo.json"
+  },
+  {
+   "plan_id": "ND-cd120-tiger2026",
+   "state": "ND",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_38_cd120.zip",
+   "source_sha256": "2020142c8a251cbbc2b65c0800aa5123c8b460b45d494ed7256ecfaf6259c2cb",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "ND-cd119-census2025",
+   "status": "pending",
+   "district_count": 1,
+   "file": "plans/ND/ND-cd120-tiger2026.topo.json"
   },
   {
    "plan_id": "NE-cd119-census2025",
@@ -463,6 +911,20 @@
    "file": "plans/NE/NE-cd119-census2025.topo.json"
   },
   {
+   "plan_id": "NE-cd120-tiger2026",
+   "state": "NE",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_31_cd120.zip",
+   "source_sha256": "e2b9129b469a61589d0e91d74bf023a5cea757733a4289b69f3baef930975e1c",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "NE-cd119-census2025",
+   "status": "pending",
+   "district_count": 3,
+   "file": "plans/NE/NE-cd120-tiger2026.topo.json"
+  },
+  {
    "plan_id": "NH-cd119-census2025",
    "state": "NH",
    "source": "Census cartographic boundary file cb_2025_us_cd119_500k",
@@ -475,6 +937,20 @@
    "status": "active",
    "district_count": 2,
    "file": "plans/NH/NH-cd119-census2025.topo.json"
+  },
+  {
+   "plan_id": "NH-cd120-tiger2026",
+   "state": "NH",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_33_cd120.zip",
+   "source_sha256": "a32e9b846da7b9176b01501375a03f18ce12dca3aa63acb11f950b64f2b2d647",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "NH-cd119-census2025",
+   "status": "pending",
+   "district_count": 2,
+   "file": "plans/NH/NH-cd120-tiger2026.topo.json"
   },
   {
    "plan_id": "NJ-cd119-census2025",
@@ -491,6 +967,20 @@
    "file": "plans/NJ/NJ-cd119-census2025.topo.json"
   },
   {
+   "plan_id": "NJ-cd120-tiger2026",
+   "state": "NJ",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_34_cd120.zip",
+   "source_sha256": "86bca2912cc888379dd8a8f303aef145f431d01dfe4c01f3fdb61f84ff3e4027",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "NJ-cd119-census2025",
+   "status": "pending",
+   "district_count": 12,
+   "file": "plans/NJ/NJ-cd120-tiger2026.topo.json"
+  },
+  {
    "plan_id": "NM-cd119-census2025",
    "state": "NM",
    "source": "Census cartographic boundary file cb_2025_us_cd119_500k",
@@ -503,6 +993,20 @@
    "status": "active",
    "district_count": 3,
    "file": "plans/NM/NM-cd119-census2025.topo.json"
+  },
+  {
+   "plan_id": "NM-cd120-tiger2026",
+   "state": "NM",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_35_cd120.zip",
+   "source_sha256": "aba1ba5bfadeb1eb584560c5d39b838a1e09309efe83269248da49540f96f1ff",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "NM-cd119-census2025",
+   "status": "pending",
+   "district_count": 3,
+   "file": "plans/NM/NM-cd120-tiger2026.topo.json"
   },
   {
    "plan_id": "NV-cd119-census2025",
@@ -519,6 +1023,20 @@
    "file": "plans/NV/NV-cd119-census2025.topo.json"
   },
   {
+   "plan_id": "NV-cd120-tiger2026",
+   "state": "NV",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_32_cd120.zip",
+   "source_sha256": "28b76d5e696ff62c8271b190e5a3121839f8cad6bec5390d4c73b5c7bd63edc6",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "NV-cd119-census2025",
+   "status": "pending",
+   "district_count": 4,
+   "file": "plans/NV/NV-cd120-tiger2026.topo.json"
+  },
+  {
    "plan_id": "NY-cd119-census2025",
    "state": "NY",
    "source": "Census cartographic boundary file cb_2025_us_cd119_500k",
@@ -531,6 +1049,20 @@
    "status": "active",
    "district_count": 26,
    "file": "plans/NY/NY-cd119-census2025.topo.json"
+  },
+  {
+   "plan_id": "NY-cd120-tiger2026",
+   "state": "NY",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_36_cd120.zip",
+   "source_sha256": "42f5efa13be57f0e5f00d3db00086b3bcef704bc3cb833494b0f3e7cbafc4b62",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "NY-cd119-census2025",
+   "status": "pending",
+   "district_count": 26,
+   "file": "plans/NY/NY-cd120-tiger2026.topo.json"
   },
   {
    "plan_id": "OH-cd119-census2025",
@@ -547,6 +1079,20 @@
    "file": "plans/OH/OH-cd119-census2025.topo.json"
   },
   {
+   "plan_id": "OH-cd120-tiger2026",
+   "state": "OH",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_39_cd120.zip",
+   "source_sha256": "4c18b9422c82639e078dacc4df32cdfa61689b1e2f92ec5b232b4ba3a2b3421b",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "OH-cd119-census2025",
+   "status": "pending",
+   "district_count": 15,
+   "file": "plans/OH/OH-cd120-tiger2026.topo.json"
+  },
+  {
    "plan_id": "OK-cd119-census2025",
    "state": "OK",
    "source": "Census cartographic boundary file cb_2025_us_cd119_500k",
@@ -559,6 +1105,20 @@
    "status": "active",
    "district_count": 5,
    "file": "plans/OK/OK-cd119-census2025.topo.json"
+  },
+  {
+   "plan_id": "OK-cd120-tiger2026",
+   "state": "OK",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_40_cd120.zip",
+   "source_sha256": "13fdcdf622b9b6cce8b5174f51692790ef2aa8ab5e8269c660c52cd13405837b",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "OK-cd119-census2025",
+   "status": "pending",
+   "district_count": 5,
+   "file": "plans/OK/OK-cd120-tiger2026.topo.json"
   },
   {
    "plan_id": "OR-cd119-census2025",
@@ -575,6 +1135,20 @@
    "file": "plans/OR/OR-cd119-census2025.topo.json"
   },
   {
+   "plan_id": "OR-cd120-tiger2026",
+   "state": "OR",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_41_cd120.zip",
+   "source_sha256": "0a725808dc3cc2dbc549ea2f205090af4bb0f70b32413e0979829167a411d697",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "OR-cd119-census2025",
+   "status": "pending",
+   "district_count": 6,
+   "file": "plans/OR/OR-cd120-tiger2026.topo.json"
+  },
+  {
    "plan_id": "PA-cd119-census2025",
    "state": "PA",
    "source": "Census cartographic boundary file cb_2025_us_cd119_500k",
@@ -587,6 +1161,20 @@
    "status": "active",
    "district_count": 17,
    "file": "plans/PA/PA-cd119-census2025.topo.json"
+  },
+  {
+   "plan_id": "PA-cd120-tiger2026",
+   "state": "PA",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_42_cd120.zip",
+   "source_sha256": "25f36969cbf6ef2bc03ebb9a6b8be54acfd555ecc2b4d7d130dafed3ee2ef79b",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "PA-cd119-census2025",
+   "status": "pending",
+   "district_count": 17,
+   "file": "plans/PA/PA-cd120-tiger2026.topo.json"
   },
   {
    "plan_id": "PR-cd119-census2025",
@@ -603,6 +1191,20 @@
    "file": "plans/PR/PR-cd119-census2025.topo.json"
   },
   {
+   "plan_id": "PR-cd120-tiger2026",
+   "state": "PR",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_72_cd120.zip",
+   "source_sha256": "aa47ccf0e1aa94a4742183eb4ace98643b55a25b74d6a7168d928cd7a6a3b9b3",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "PR-cd119-census2025",
+   "status": "pending",
+   "district_count": 1,
+   "file": "plans/PR/PR-cd120-tiger2026.topo.json"
+  },
+  {
    "plan_id": "RI-cd119-census2025",
    "state": "RI",
    "source": "Census cartographic boundary file cb_2025_us_cd119_500k",
@@ -615,6 +1217,20 @@
    "status": "active",
    "district_count": 2,
    "file": "plans/RI/RI-cd119-census2025.topo.json"
+  },
+  {
+   "plan_id": "RI-cd120-tiger2026",
+   "state": "RI",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_44_cd120.zip",
+   "source_sha256": "471bec330066bb9ecc940d08f3501f6ba90eb217a9e4036aaee0fc26edea5b3d",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "RI-cd119-census2025",
+   "status": "pending",
+   "district_count": 2,
+   "file": "plans/RI/RI-cd120-tiger2026.topo.json"
   },
   {
    "plan_id": "SC-cd119-census2025",
@@ -631,6 +1247,20 @@
    "file": "plans/SC/SC-cd119-census2025.topo.json"
   },
   {
+   "plan_id": "SC-cd120-tiger2026",
+   "state": "SC",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_45_cd120.zip",
+   "source_sha256": "541371371ae5f80ac2374ef1903033c71d7ec1fd22135dd2ca7de79e0366238a",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "SC-cd119-census2025",
+   "status": "pending",
+   "district_count": 7,
+   "file": "plans/SC/SC-cd120-tiger2026.topo.json"
+  },
+  {
    "plan_id": "SD-cd119-census2025",
    "state": "SD",
    "source": "Census cartographic boundary file cb_2025_us_cd119_500k",
@@ -643,6 +1273,20 @@
    "status": "active",
    "district_count": 1,
    "file": "plans/SD/SD-cd119-census2025.topo.json"
+  },
+  {
+   "plan_id": "SD-cd120-tiger2026",
+   "state": "SD",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_46_cd120.zip",
+   "source_sha256": "9a2d5708d22bf75bd78a50fdc32aded343692733d260b285f1629e2dcd383b7b",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "SD-cd119-census2025",
+   "status": "pending",
+   "district_count": 1,
+   "file": "plans/SD/SD-cd120-tiger2026.topo.json"
   },
   {
    "plan_id": "TN-cd119-census2025",
@@ -659,6 +1303,20 @@
    "file": "plans/TN/TN-cd119-census2025.topo.json"
   },
   {
+   "plan_id": "TN-cd120-tiger2026",
+   "state": "TN",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_47_cd120.zip",
+   "source_sha256": "a1f017ae34e3a335492ded7572ec69f3d7e193ffbc144a9269fb7e1b8803d0fe",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "TN-cd119-census2025",
+   "status": "pending",
+   "district_count": 9,
+   "file": "plans/TN/TN-cd120-tiger2026.topo.json"
+  },
+  {
    "plan_id": "TX-cd119-census2025",
    "state": "TX",
    "source": "Census cartographic boundary file cb_2025_us_cd119_500k",
@@ -671,6 +1329,20 @@
    "status": "active",
    "district_count": 38,
    "file": "plans/TX/TX-cd119-census2025.topo.json"
+  },
+  {
+   "plan_id": "TX-cd120-tiger2026",
+   "state": "TX",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_48_cd120.zip",
+   "source_sha256": "3edba357705cbd64be72db0296c8d49d1d5e1fbaa1b3c2b55556c2e633d42c7f",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "TX-cd119-census2025",
+   "status": "pending",
+   "district_count": 38,
+   "file": "plans/TX/TX-cd120-tiger2026.topo.json"
   },
   {
    "plan_id": "UT-cd119-census2025",
@@ -687,6 +1359,20 @@
    "file": "plans/UT/UT-cd119-census2025.topo.json"
   },
   {
+   "plan_id": "UT-cd120-tiger2026",
+   "state": "UT",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_49_cd120.zip",
+   "source_sha256": "0222fbf567b75aadcf7c12c43fadf49050ae381fb4e69ae6566c76709d480223",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "UT-cd119-census2025",
+   "status": "pending",
+   "district_count": 4,
+   "file": "plans/UT/UT-cd120-tiger2026.topo.json"
+  },
+  {
    "plan_id": "VA-cd119-census2025",
    "state": "VA",
    "source": "Census cartographic boundary file cb_2025_us_cd119_500k",
@@ -699,6 +1385,20 @@
    "status": "active",
    "district_count": 11,
    "file": "plans/VA/VA-cd119-census2025.topo.json"
+  },
+  {
+   "plan_id": "VA-cd120-tiger2026",
+   "state": "VA",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_51_cd120.zip",
+   "source_sha256": "657f900a2e85c9813e5fd360b021edfa128e0531bf1ce2492feff2d82e873291",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "VA-cd119-census2025",
+   "status": "pending",
+   "district_count": 11,
+   "file": "plans/VA/VA-cd120-tiger2026.topo.json"
   },
   {
    "plan_id": "VI-cd119-census2025",
@@ -715,6 +1415,20 @@
    "file": "plans/VI/VI-cd119-census2025.topo.json"
   },
   {
+   "plan_id": "VI-cd120-tiger2026",
+   "state": "VI",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_78_cd120.zip",
+   "source_sha256": "bf7f8649a73d641f0348e6e2bf2655a21638aaded0197a185ab2ff41744dc87e",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "VI-cd119-census2025",
+   "status": "pending",
+   "district_count": 1,
+   "file": "plans/VI/VI-cd120-tiger2026.topo.json"
+  },
+  {
    "plan_id": "VT-cd119-census2025",
    "state": "VT",
    "source": "Census cartographic boundary file cb_2025_us_cd119_500k",
@@ -727,6 +1441,20 @@
    "status": "active",
    "district_count": 1,
    "file": "plans/VT/VT-cd119-census2025.topo.json"
+  },
+  {
+   "plan_id": "VT-cd120-tiger2026",
+   "state": "VT",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_50_cd120.zip",
+   "source_sha256": "bcebac7a410e833274b502013216a6400159124845d307ca2b29599d673747ff",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "VT-cd119-census2025",
+   "status": "pending",
+   "district_count": 1,
+   "file": "plans/VT/VT-cd120-tiger2026.topo.json"
   },
   {
    "plan_id": "WA-cd119-census2025",
@@ -743,6 +1471,20 @@
    "file": "plans/WA/WA-cd119-census2025.topo.json"
   },
   {
+   "plan_id": "WA-cd120-tiger2026",
+   "state": "WA",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_53_cd120.zip",
+   "source_sha256": "06567cf2744bfd932aa05082c5995a2853ca6eead904db0bb2b94b384a0f1e70",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "WA-cd119-census2025",
+   "status": "pending",
+   "district_count": 10,
+   "file": "plans/WA/WA-cd120-tiger2026.topo.json"
+  },
+  {
    "plan_id": "WI-cd119-census2025",
    "state": "WI",
    "source": "Census cartographic boundary file cb_2025_us_cd119_500k",
@@ -755,6 +1497,20 @@
    "status": "active",
    "district_count": 8,
    "file": "plans/WI/WI-cd119-census2025.topo.json"
+  },
+  {
+   "plan_id": "WI-cd120-tiger2026",
+   "state": "WI",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_55_cd120.zip",
+   "source_sha256": "d37461db92c2597a300fcc3a9fefa65434a1904104b18ec041f75f0a91b69576",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "WI-cd119-census2025",
+   "status": "pending",
+   "district_count": 8,
+   "file": "plans/WI/WI-cd120-tiger2026.topo.json"
   },
   {
    "plan_id": "WV-cd119-census2025",
@@ -771,6 +1527,20 @@
    "file": "plans/WV/WV-cd119-census2025.topo.json"
   },
   {
+   "plan_id": "WV-cd120-tiger2026",
+   "state": "WV",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_54_cd120.zip",
+   "source_sha256": "dbc34329fb3a1006c6abe51d531cab6658ec161795cced9573053650ac06538c",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "WV-cd119-census2025",
+   "status": "pending",
+   "district_count": 2,
+   "file": "plans/WV/WV-cd120-tiger2026.topo.json"
+  },
+  {
    "plan_id": "WY-cd119-census2025",
    "state": "WY",
    "source": "Census cartographic boundary file cb_2025_us_cd119_500k",
@@ -783,6 +1553,20 @@
    "status": "active",
    "district_count": 1,
    "file": "plans/WY/WY-cd119-census2025.topo.json"
+  },
+  {
+   "plan_id": "WY-cd120-tiger2026",
+   "state": "WY",
+   "source": "Census TIGER/Line 2026 congressional districts (120th Congress)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_56_cd120.zip",
+   "source_sha256": "3d8a9a6bf6346be86f79cc4348b5d464b50f785a71495a66c618965da1d32e8c",
+   "enacted_date": null,
+   "effective_congress": 120,
+   "effective_date": "2027-01-03",
+   "supersedes": "WY-cd119-census2025",
+   "status": "pending",
+   "district_count": 1,
+   "file": "plans/WY/WY-cd120-tiger2026.topo.json"
   }
  ]
 }
