@@ -1,0 +1,9 @@
+:root { font-family: system-ui, sans-serif; color: #1c1c1e; }
+main { max-width: 1000px; margin: 0 auto; padding: 1rem; }
+.state { fill: #cfd8e3; stroke: #fff; stroke-width: 0.8; cursor: pointer; transition: fill 0.1s; }
+.state:hover, .state:focus { fill: #7f9bbd; outline: none; }
+.state-outline { fill: #cfd8e3; stroke: #4a5a70; stroke-width: 1.5; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 0.4rem 0.5rem; border-bottom: 1px solid #e3e3e8; }
+nav[aria-label="Pagination"] { display: flex; gap: 1rem; align-items: center; margin-top: 0.75rem; }
+.asof, .todo { color: #666; font-size: 0.9rem; }

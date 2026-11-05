@@ -1,0 +1,104 @@
+{
+  "fetched_at": "2026-11-05T17:20:00Z",
+  "sources": [
+    "govtrack-most-tracked (DEV SAMPLE: captured 2026-11-05 via the Hermes web extractor, not the pipeline)"
+  ],
+  "bills": [
+    {
+      "rank": 1,
+      "bill_id": "119/hr22",
+      "title": "SAVE Act",
+      "tracked_count": 1014,
+      "source": "govtrack-most-tracked",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/22"
+    },
+    {
+      "rank": 2,
+      "bill_id": "119/hr25",
+      "title": "FairTax Act of 2025",
+      "tracked_count": 596,
+      "source": "govtrack-most-tracked",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/25"
+    },
+    {
+      "rank": 3,
+      "bill_id": "119/hr1",
+      "title": "An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.",
+      "tracked_count": 528,
+      "source": "govtrack-most-tracked",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1"
+    },
+    {
+      "rank": 4,
+      "bill_id": "119/hr899",
+      "title": "To terminate the Department of Education.",
+      "tracked_count": 510,
+      "source": "govtrack-most-tracked",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/899"
+    },
+    {
+      "rank": 5,
+      "bill_id": "119/hr722",
+      "title": "Life at Conception Act",
+      "tracked_count": 502,
+      "source": "govtrack-most-tracked",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/722"
+    },
+    {
+      "rank": 6,
+      "bill_id": "119/hr38",
+      "title": "Constitutional Concealed Carry Reciprocity Act of 2025",
+      "tracked_count": 467,
+      "source": "govtrack-most-tracked",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/38"
+    },
+    {
+      "rank": 7,
+      "bill_id": "119/hr28",
+      "title": "Protection of Women and Girls in Sports Act of 2025",
+      "tracked_count": 357,
+      "source": "govtrack-most-tracked",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/28"
+    },
+    {
+      "rank": 8,
+      "bill_id": "119/hres7",
+      "title": "Recognizing the importance of access to comprehensive, high-quality, life-affirming medical care for women of all ages.",
+      "tracked_count": 338,
+      "source": "govtrack-most-tracked",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-resolution/7"
+    },
+    {
+      "rank": 9,
+      "bill_id": "119/s26",
+      "title": "A bill to exclude locality adjustments from average pay for purposes of computing the amount of retirement annuities of new employees.",
+      "tracked_count": 316,
+      "source": "govtrack-most-tracked",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/26"
+    },
+    {
+      "rank": 10,
+      "bill_id": "119/hconres14",
+      "title": "Establishing the congressional budget for the United States Government for fiscal year 2025 and setting forth the appropriate budgetary levels for fiscal years 2026 through 2034.",
+      "tracked_count": 301,
+      "source": "govtrack-most-tracked",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/14"
+    },
+    {
+      "rank": 11,
+      "bill_id": "119/hr129",
+      "title": "Abolish the ATF Act",
+      "tracked_count": 246,
+      "source": "govtrack-most-tracked",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/129"
+    },
+    {
+      "rank": 12,
+      "bill_id": "119/hr3633",
+      "title": "Digital Asset Market Clarity Act",
+      "tracked_count": 224,
+      "source": "govtrack-most-tracked",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3633"
+    }
+  ]
+}

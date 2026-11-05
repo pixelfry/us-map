@@ -1,0 +1,12 @@
+{
+  "name": "us-map",
+  "private": true,
+  "type": "module",
+  "workspaces": ["web", "pipeline"],
+  "scripts": {
+    "pipeline:bills": "npm run -w pipeline fetch:bills",
+    "test": "npm run -w pipeline test && npm run -w web test",
+    "dev": "npm run -w web dev",
+    "build": "npm run -w web build"
+  }
+}
