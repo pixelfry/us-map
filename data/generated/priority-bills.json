@@ -1,104 +1,669 @@
 {
-  "fetched_at": "2026-11-05T17:20:00Z",
+  "fetched_at": "2026-11-05T17:33:23.445Z",
   "sources": [
-    "govtrack-most-tracked (DEV SAMPLE: captured 2026-11-05 via the Hermes web extractor, not the pipeline)"
+    "congress-gov: passed a chamber",
+    "congress-gov: became law"
   ],
   "bills": [
     {
-      "rank": 1,
-      "bill_id": "119/hr22",
-      "title": "SAVE Act",
-      "tracked_count": 1014,
-      "source": "govtrack-most-tracked",
-      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/22"
+      "bill_id": "119/hr9086",
+      "title": "Foreign Service Modernization Act",
+      "tracked_count": null,
+      "source": "congress-gov: passed a chamber",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9086",
+      "latest_action": {
+        "date": "2026-09-17",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Foreign Relations."
+      },
+      "rank": 1
     },
     {
-      "rank": 2,
-      "bill_id": "119/hr25",
-      "title": "FairTax Act of 2025",
-      "tracked_count": 596,
-      "source": "govtrack-most-tracked",
-      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/25"
+      "bill_id": "119/hr2478",
+      "title": "Financial Exploitation Prevention Act of 2025",
+      "tracked_count": null,
+      "source": "congress-gov: passed a chamber",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2478",
+      "latest_action": {
+        "date": "2026-07-13",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+      },
+      "rank": 2
     },
     {
-      "rank": 3,
-      "bill_id": "119/hr1",
-      "title": "An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.",
-      "tracked_count": 528,
-      "source": "govtrack-most-tracked",
-      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1"
+      "bill_id": "119/hr2616",
+      "title": "Stopping Indoctrination and Protecting Kids Act",
+      "tracked_count": null,
+      "source": "congress-gov: passed a chamber",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2616",
+      "latest_action": {
+        "date": "2026-05-21",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+      },
+      "rank": 3
     },
     {
-      "rank": 4,
-      "bill_id": "119/hr899",
-      "title": "To terminate the Department of Education.",
-      "tracked_count": 510,
-      "source": "govtrack-most-tracked",
-      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/899"
+      "bill_id": "119/hr2293",
+      "title": "Cormorant Relief Act of 2025",
+      "tracked_count": null,
+      "source": "congress-gov: passed a chamber",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2293",
+      "latest_action": {
+        "date": "2025-12-10",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works."
+      },
+      "rank": 4
     },
     {
-      "rank": 5,
-      "bill_id": "119/hr722",
-      "title": "Life at Conception Act",
-      "tracked_count": 502,
-      "source": "govtrack-most-tracked",
-      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/722"
+      "bill_id": "119/s911",
+      "title": "Chief Herbert D. Proffitt Act of 2025",
+      "tracked_count": null,
+      "source": "congress-gov: passed a chamber",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/911",
+      "latest_action": {
+        "date": "2025-08-01",
+        "text": "Received in the House."
+      },
+      "rank": 5
     },
     {
-      "rank": 6,
-      "bill_id": "119/hr38",
-      "title": "Constitutional Concealed Carry Reciprocity Act of 2025",
-      "tracked_count": 467,
-      "source": "govtrack-most-tracked",
-      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/38"
+      "bill_id": "119/hr8205",
+      "title": "Accelerating Access to Critical Therapies for ALS Reauthorization Act of 2026",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8205",
+      "latest_action": {
+        "date": "2026-11-03",
+        "text": "Became Public Law No: 119-138."
+      },
+      "rank": 6
     },
     {
-      "rank": 7,
-      "bill_id": "119/hr28",
-      "title": "Protection of Women and Girls in Sports Act of 2025",
-      "tracked_count": 357,
-      "source": "govtrack-most-tracked",
-      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/28"
+      "bill_id": "119/hr1744",
+      "title": "United States Commission on International Religious Freedom Reauthorization Act of 2026",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1744",
+      "latest_action": {
+        "date": "2026-11-03",
+        "text": "Became Public Law No: 119-137."
+      },
+      "rank": 7
     },
     {
-      "rank": 8,
-      "bill_id": "119/hres7",
-      "title": "Recognizing the importance of access to comprehensive, high-quality, life-affirming medical care for women of all ages.",
-      "tracked_count": 338,
-      "source": "govtrack-most-tracked",
-      "congress_url": "https://www.congress.gov/bill/119th-congress/house-resolution/7"
+      "bill_id": "119/hr7022",
+      "title": "Mystic Alerts Act",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7022",
+      "latest_action": {
+        "date": "2026-10-22",
+        "text": "Became Public Law No: 119-136."
+      },
+      "rank": 8
     },
     {
-      "rank": 9,
-      "bill_id": "119/s26",
-      "title": "A bill to exclude locality adjustments from average pay for purposes of computing the amount of retirement annuities of new employees.",
-      "tracked_count": 316,
-      "source": "govtrack-most-tracked",
-      "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/26"
+      "bill_id": "119/hr952",
+      "title": "Reversionary Interest Conveyance Act",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/952",
+      "latest_action": {
+        "date": "2026-10-22",
+        "text": "Became Public Law No: 119-135."
+      },
+      "rank": 9
     },
     {
-      "rank": 10,
-      "bill_id": "119/hconres14",
-      "title": "Establishing the congressional budget for the United States Government for fiscal year 2025 and setting forth the appropriate budgetary levels for fiscal years 2026 through 2034.",
-      "tracked_count": 301,
-      "source": "govtrack-most-tracked",
-      "congress_url": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/14"
+      "bill_id": "119/hr227",
+      "title": "Clergy Act",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/227",
+      "latest_action": {
+        "date": "2026-10-20",
+        "text": "Became Public Law No: 119-125."
+      },
+      "rank": 10
     },
     {
-      "rank": 11,
-      "bill_id": "119/hr129",
-      "title": "Abolish the ATF Act",
-      "tracked_count": 246,
-      "source": "govtrack-most-tracked",
-      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/129"
+      "bill_id": "119/hr7831",
+      "title": "License to Drill Act",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7831",
+      "latest_action": {
+        "date": "2026-10-20",
+        "text": "Became Public Law No: 119-134."
+      },
+      "rank": 11
     },
     {
-      "rank": 12,
-      "bill_id": "119/hr3633",
-      "title": "Digital Asset Market Clarity Act",
-      "tracked_count": 224,
-      "source": "govtrack-most-tracked",
-      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3633"
+      "bill_id": "119/hr6380",
+      "title": "Chiricahua National Park Act",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6380",
+      "latest_action": {
+        "date": "2026-10-20",
+        "text": "Became Public Law No: 119-133."
+      },
+      "rank": 12
+    },
+    {
+      "bill_id": "119/hr4467",
+      "title": "Vicksburg National Military Park Boundary Modification Act",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4467",
+      "latest_action": {
+        "date": "2026-10-20",
+        "text": "Became Public Law No: 119-132."
+      },
+      "rank": 13
+    },
+    {
+      "bill_id": "119/hr4307",
+      "title": "Enhancing Detection of Human Trafficking Act",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4307",
+      "latest_action": {
+        "date": "2026-10-20",
+        "text": "Became Public Law No: 119-131."
+      },
+      "rank": 14
+    },
+    {
+      "bill_id": "119/hr3620",
+      "title": "Southcentral Foundation Land Transfer Act of 2025",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3620",
+      "latest_action": {
+        "date": "2026-10-20",
+        "text": "Became Public Law No: 119-130."
+      },
+      "rank": 15
+    },
+    {
+      "bill_id": "119/hr2481",
+      "title": "Romance Scam Prevention Act",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2481",
+      "latest_action": {
+        "date": "2026-10-20",
+        "text": "Became Public Law No: 119-129."
+      },
+      "rank": 16
+    },
+    {
+      "bill_id": "119/hr2388",
+      "title": "Lower Elwha Klallam Tribe Project Lands Restoration Act",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2388",
+      "latest_action": {
+        "date": "2026-10-20",
+        "text": "Became Public Law No: 119-128."
+      },
+      "rank": 17
+    },
+    {
+      "bill_id": "119/hr1721",
+      "title": "Critical Infrastructure Manufacturing Feasibility Act",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1721",
+      "latest_action": {
+        "date": "2026-10-20",
+        "text": "Became Public Law No: 119-127."
+      },
+      "rank": 18
+    },
+    {
+      "bill_id": "119/hr837",
+      "title": "To require the Secretary of Agriculture to convey the Pleasant Valley Ranger District Administrative Site to Gila County, Arizona.",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/837",
+      "latest_action": {
+        "date": "2026-10-20",
+        "text": "Became Public Law No: 119-126."
+      },
+      "rank": 19
+    },
+    {
+      "bill_id": "119/s2403",
+      "title": "Retire through Ownership Act",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2403",
+      "latest_action": {
+        "date": "2026-10-15",
+        "text": "Became Public Law No: 119-124."
+      },
+      "rank": 20
+    },
+    {
+      "bill_id": "119/s283",
+      "title": "Illegal Red Snapper and Tuna Enforcement Act",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/283",
+      "latest_action": {
+        "date": "2026-10-15",
+        "text": "Became Public Law No: 119-123."
+      },
+      "rank": 21
+    },
+    {
+      "bill_id": "119/s240",
+      "title": "Crow Tribe Water Rights Settlement Amendments Act of 2025",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/240",
+      "latest_action": {
+        "date": "2026-10-15",
+        "text": "Became Public Law No: 119-122."
+      },
+      "rank": 22
+    },
+    {
+      "bill_id": "119/s195",
+      "title": "American Music Tourism Act of 2025",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/195",
+      "latest_action": {
+        "date": "2026-10-09",
+        "text": "Became Public Law No: 119-121."
+      },
+      "rank": 23
+    },
+    {
+      "bill_id": "119/hr5345",
+      "title": "Improving Social Security’s Service to Victims of Identity Theft Act",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5345",
+      "latest_action": {
+        "date": "2026-10-07",
+        "text": "Became Public Law No: 119-119."
+      },
+      "rank": 24
+    },
+    {
+      "bill_id": "119/s766",
+      "title": "Billion Dollar Boondoggle Act of 2025",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/766",
+      "latest_action": {
+        "date": "2026-10-07",
+        "text": "Became Public Law No: 119-120."
+      },
+      "rank": 25
+    },
+    {
+      "bill_id": "119/s2398",
+      "title": "Kay Hagan Tick Reauthorization Act",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2398",
+      "latest_action": {
+        "date": "2026-09-30",
+        "text": "Became Public Law No: 119-118."
+      },
+      "rank": 26
+    },
+    {
+      "bill_id": "119/s790",
+      "title": "A bill to redesignate the National Historic Trails Interpretive Center in Casper, Wyoming, as the \"Barbara L. Cubin National Historic Trails Interpretive Center\".",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/790",
+      "latest_action": {
+        "date": "2026-09-25",
+        "text": "Became Public Law No: 119-117."
+      },
+      "rank": 27
+    },
+    {
+      "bill_id": "119/s759",
+      "title": "Modernizing Access to Our Public Oceans Act",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/759",
+      "latest_action": {
+        "date": "2026-09-25",
+        "text": "Became Public Law No: 119-116."
+      },
+      "rank": 28
+    },
+    {
+      "bill_id": "119/s603",
+      "title": "A bill to designate the General George C. Marshall House, in the Commonwealth of Virginia, as an affiliated area of the National Park System, and for other purposes.",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/603",
+      "latest_action": {
+        "date": "2026-09-25",
+        "text": "Became Public Law No: 119-115."
+      },
+      "rank": 29
+    },
+    {
+      "bill_id": "119/s550",
+      "title": "A bill to provide for the equitable settlement of certain Indian land disputes regarding land in Illinois, and for other purposes.",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/550",
+      "latest_action": {
+        "date": "2026-09-25",
+        "text": "Became Public Law No: 119-114."
+      },
+      "rank": 30
+    },
+    {
+      "bill_id": "119/hr7250",
+      "title": "To reauthorize the Fort Peck Reservation Rural Water System Act of 2000.",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7250",
+      "latest_action": {
+        "date": "2026-09-25",
+        "text": "Became Public Law No: 119-113."
+      },
+      "rank": 31
+    },
+    {
+      "bill_id": "119/hr3657",
+      "title": "Hydropower Licensing Transparency Act",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3657",
+      "latest_action": {
+        "date": "2026-09-25",
+        "text": "Became Public Law No: 119-112."
+      },
+      "rank": 32
+    },
+    {
+      "bill_id": "119/hr5334",
+      "title": "Lindsey O. Graham Sanctioning Russia and Iran Act of 2026",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5334",
+      "latest_action": {
+        "date": "2026-09-18",
+        "text": "Became Public Law No: 119-111."
+      },
+      "rank": 33
+    },
+    {
+      "bill_id": "119/s307",
+      "title": "Prison Staff Safety Enhancement Act",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/307",
+      "latest_action": {
+        "date": "2026-09-16",
+        "text": "Became Public Law No: 119-110."
+      },
+      "rank": 34
+    },
+    {
+      "bill_id": "119/s32",
+      "title": "LACA",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/32",
+      "latest_action": {
+        "date": "2026-09-16",
+        "text": "Became Public Law No: 119-109."
+      },
+      "rank": 35
+    },
+    {
+      "bill_id": "119/hr5366",
+      "title": "Doug LaMalfa Federal Disaster Tax Relief Certainty Act",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5366",
+      "latest_action": {
+        "date": "2026-09-11",
+        "text": "Became Public Law No: 119-108."
+      },
+      "rank": 36
+    },
+    {
+      "bill_id": "119/hr2196",
+      "title": "National Emergency Medical Services Memorial Extension Act",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2196",
+      "latest_action": {
+        "date": "2026-09-11",
+        "text": "Became Public Law No: 119-107."
+      },
+      "rank": 37
+    },
+    {
+      "bill_id": "119/hr2069",
+      "title": "Stop Secret Spending Act of 2025",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2069",
+      "latest_action": {
+        "date": "2026-09-11",
+        "text": "Became Public Law No: 119-106."
+      },
+      "rank": 38
+    },
+    {
+      "bill_id": "119/hr1276",
+      "title": "To remove restrictions from a parcel of land in Paducah, Kentucky.",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1276",
+      "latest_action": {
+        "date": "2026-09-11",
+        "text": "Became Public Law No: 119-105."
+      },
+      "rank": 39
+    },
+    {
+      "bill_id": "119/s858",
+      "title": "Hershel ‘Woody' Williams National Medal of Honor Monument Location Act",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/858",
+      "latest_action": {
+        "date": "2026-09-10",
+        "text": "Became Public Law No: 119-104."
+      },
+      "rank": 40
+    },
+    {
+      "bill_id": "119/hr6500",
+      "title": "Continuing Appropriations and Extensions Act, 2027",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6500",
+      "latest_action": {
+        "date": "2026-09-02",
+        "text": "Became Public Law No: 119-103."
+      },
+      "rank": 41
+    },
+    {
+      "bill_id": "119/s629",
+      "title": "Emergency Conservation Program Improvement Act of 2025",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/629",
+      "latest_action": {
+        "date": "2026-07-12",
+        "text": "Became Public Law No: 119-102."
+      },
+      "rank": 42
+    },
+    {
+      "bill_id": "119/hr6644",
+      "title": "21st Century ROAD to Housing Act",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6644",
+      "latest_action": {
+        "date": "2026-07-11",
+        "text": "Became Public Law No: 119-101."
+      },
+      "rank": 43
+    },
+    {
+      "bill_id": "119/s1003",
+      "title": "Lulu’s Law",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/1003",
+      "latest_action": {
+        "date": "2026-06-26",
+        "text": "Became Public Law No: 119-100."
+      },
+      "rank": 44
+    },
+    {
+      "bill_id": "119/s254",
+      "title": "ARTIST Act",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/254",
+      "latest_action": {
+        "date": "2026-06-12",
+        "text": "Became Public Law No: 119-99."
+      },
+      "rank": 45
+    },
+    {
+      "bill_id": "119/s2",
+      "title": "Secure America Act",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2",
+      "latest_action": {
+        "date": "2026-06-10",
+        "text": "Became Public Law No: 119-98."
+      },
+      "rank": 46
+    },
+    {
+      "bill_id": "119/s2393",
+      "title": "Fiscal Year 2025 Veterans Affairs Major Medical Facility Authorization Act",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2393",
+      "latest_action": {
+        "date": "2026-06-09",
+        "text": "Became Public Law No: 119-97."
+      },
+      "rank": 47
+    },
+    {
+      "bill_id": "119/hr3490",
+      "title": "Gerald E. Connolly Esophageal Cancer Awareness Act of 2025",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3490",
+      "latest_action": {
+        "date": "2026-06-09",
+        "text": "Became Public Law No: 119-96."
+      },
+      "rank": 48
+    },
+    {
+      "bill_id": "119/s4530",
+      "title": "A bill to amend chapters 83 and 84 of title 5, United States Code, to authorize an increase of the retirement age for members of the Capitol Police.",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4530",
+      "latest_action": {
+        "date": "2026-05-29",
+        "text": "Became Public Law No: 119-95."
+      },
+      "rank": 49
+    },
+    {
+      "bill_id": "119/hr3497",
+      "title": "Medal of Sacrifice Act",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3497",
+      "latest_action": {
+        "date": "2026-05-28",
+        "text": "Became Public Law No: 119-94."
+      },
+      "rank": 50
+    },
+    {
+      "bill_id": "119/hr2815",
+      "title": "Cape Fox Land Entitlement Finalization Act of 2025",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2815",
+      "latest_action": {
+        "date": "2026-05-19",
+        "text": "Became Public Law No: 119-93."
+      },
+      "rank": 51
+    },
+    {
+      "bill_id": "119/hr2066",
+      "title": "Investing in All of America Act of 2025",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2066",
+      "latest_action": {
+        "date": "2026-05-19",
+        "text": "Became Public Law No: 119-92."
+      },
+      "rank": 52
+    },
+    {
+      "bill_id": "119/hr972",
+      "title": "Sloan Canyon Conservation and Lateral Pipeline Act",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/972",
+      "latest_action": {
+        "date": "2026-05-19",
+        "text": "Became Public Law No: 119-91."
+      },
+      "rank": 53
+    },
+    {
+      "bill_id": "119/s98",
+      "title": "Rural Broadband Protection Act of 2025",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/98",
+      "latest_action": {
+        "date": "2026-05-11",
+        "text": "Became Public Law No: 119-89."
+      },
+      "rank": 54
+    },
+    {
+      "bill_id": "119/s1020",
+      "title": "A bill to require the Federal Energy Regulatory Commission to extend the time period during which licensees are required to commence construction of certain hydropower projects.",
+      "tracked_count": null,
+      "source": "congress-gov: became law",
+      "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/1020",
+      "latest_action": {
+        "date": "2026-05-11",
+        "text": "Became Public Law No: 119-90."
+      },
+      "rank": 55
     }
   ]
 }

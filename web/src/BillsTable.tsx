@@ -4,7 +4,7 @@ import type { PriorityBill } from "./types";
 
 const col = createColumnHelper<PriorityBill>();
 
-const columns = [
+const baseColumns = [
   col.accessor("rank", { header: "#" }),
   col.accessor("title", {
     header: "Bill",
@@ -14,12 +14,21 @@ const columns = [
       </a>
     ),
   }),
-  col.accessor("tracked_count", { header: "Tracked by", cell: (c) => c.getValue() ?? "—" }),
+  col.accessor((b) => (b.latest_action ? `${b.latest_action.date}: ${b.latest_action.text}` : ""), {
+    id: "latest_action",
+    header: "Latest action",
+  }),
   col.accessor("source", { header: "Source" }),
 ];
+const trackedColumn = col.accessor("tracked_count", { header: "Tracked by", cell: (c) => c.getValue() ?? "—" });
 
 export function BillsTable({ bills, pageSize = 10 }: { bills: PriorityBill[]; pageSize?: number }) {
   const data = useMemo(() => bills, [bills]);
+  // Only show the "Tracked by" column when some source supplied counts (GovTrack does, Congress.gov doesn't).
+  const columns = useMemo(
+    () => (bills.some((b) => b.tracked_count != null) ? [...baseColumns.slice(0, 2), trackedColumn, ...baseColumns.slice(2)] : baseColumns),
+    [bills],
+  );
   const [pagination, setPagination] = useState({ pageIndex: 0, pageSize });
   const table = useReactTable({
     data,

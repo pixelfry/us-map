@@ -5,6 +5,7 @@ export interface PriorityBill {
   tracked_count: number | null;
   source: string;
   congress_url: string;
+  latest_action?: { date: string; text: string };
 }
 
 export interface PriorityBillsFile {

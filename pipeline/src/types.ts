@@ -5,6 +5,7 @@ export interface PriorityBill {
   tracked_count: number | null;
   source: string;         // e.g. "govtrack-most-tracked"
   congress_url: string;   // official congress.gov link
+  latest_action?: { date: string; text: string };
 }
 
 export interface PriorityBillsFile {

@@ -43,4 +43,11 @@ describe("BillsTable", () => {
     render(<BillsTable bills={make(95)} />);
     expect(screen.getByText("Page 1 of 10")).toBeTruthy();
   });
+
+  it("shows latest action, and the tracked column only when counts exist", () => {
+    const withAction = make(2).map((b) => ({ ...b, tracked_count: null, latest_action: { date: "2026-11-03", text: "Became Public Law No: 119-138." } }));
+    render(<BillsTable bills={withAction} />);
+    expect(screen.getAllByText("2026-11-03: Became Public Law No: 119-138.")).toHaveLength(2);
+    expect(screen.queryByText("Tracked by")).toBeNull();
+  });
 });

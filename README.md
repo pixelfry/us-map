@@ -4,7 +4,7 @@ Interactive map of the US Congress: states, districts colored by party, members 
 re-election dates, and a table of priority bills linking to congress.gov.
 
 Design and stack notes live in the Obsidian vault: Projects/Map project.md.
-Stack: React + Vite + TypeScript frontend; Node/TypeScript pipeline; Playwright (headless Chromium) for the GovTrack fetch.
+Stack: React + Vite + TypeScript frontend; Node/TypeScript pipeline; Congress.gov API as the bill source.
 
 ## Commands
 
@@ -12,6 +12,7 @@ Stack: React + Vite + TypeScript frontend; Node/TypeScript pipeline; Playwright 
     npm run dev          # web app on localhost
     npm test             # pipeline + web tests
     npm run build
-    npm run pipeline:bills   # GovTrack fetch (currently blocked, see docs/govtrack-blocked.md)
+    npm run pipeline:bills   # refresh data/generated/priority-bills.json from the Congress.gov API
 
-`data/generated/priority-bills.json` is a dev sample until the pipeline can fetch GovTrack.
+Set `CONGRESS_API_KEY` (free: https://api.congress.gov/sign-up/) in `.env`/the shell. Without it the job uses the rate-limited DEMO_KEY.
+GovTrack was dropped as a source because Cloudflare blocks automated fetches (docs/govtrack-blocked.md).
