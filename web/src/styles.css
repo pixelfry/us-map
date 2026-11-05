@@ -1,22 +1,74 @@
-:root { font-family: system-ui, sans-serif; color: #1c1c1e; }
-main { max-width: 1000px; margin: 0 auto; padding: 1rem; }
-.state { fill: #cfd8e3; stroke: #fff; stroke-width: 0.8; cursor: pointer; transition: fill 0.1s; }
-.state:hover, .state:focus { fill: #7f9bbd; outline: none; }
-.state-outline { fill: #cfd8e3; stroke: #4a5a70; stroke-width: 1.5; }
-table { width: 100%; border-collapse: collapse; }
-th, td { text-align: left; padding: 0.4rem 0.5rem; border-bottom: 1px solid #e3e3e8; }
-nav[aria-label="Pagination"] { display: flex; gap: 1rem; align-items: center; margin-top: 0.75rem; }
-.asof, .todo { color: #666; font-size: 0.9rem; }
-.district { stroke: #fff; stroke-width: 0.8; transition: opacity 0.1s; }
-.district.active { stroke: #111; stroke-width: 2; }
-.party-fill-D, .swatch.party-fill-D { fill: #2f6db5; background: #2f6db5; }
-.party-fill-R, .swatch.party-fill-R { fill: #c5393a; background: #c5393a; }
-.party-fill-I, .swatch.party-fill-I { fill: #6a9a4a; background: #6a9a4a; }
-.party-fill-O { fill: #8a6bb0; }
-.party-fill-vacant, .swatch.party-fill-vacant { fill: #bbb; background: #bbb; }
-.legend { list-style: none; display: flex; gap: 1.25rem; padding: 0; margin: 0.5rem 0; }
-.swatch { display: inline-block; width: 0.9rem; height: 0.9rem; border-radius: 2px; vertical-align: -2px; }
-.party { font-size: 0.85rem; white-space: nowrap; }
-.party-D { color: #1f4f8a; } .party-R { color: #a02a2b; } .party-I { color: #44702c; }
-tr.active { background: #f3f6fb; }
+/* Dark is the default theme. Every color is a variable so a light theme can be added as an override later. */
+:root {
+  color-scheme: dark;
+  --bg: #12161d;
+  --surface: #1a202a;
+  --surface-hover: #212a37;
+  --border: #2a3342;
+  --text: #d6dce6;
+  --text-strong: #eef1f6;
+  --muted: #8b96a7;
+  --link: #8dbbef;
+  --link-hover: #b4d3f7;
+  --map-fill: #273142;
+  --map-hover: #3d5c86;
+  --map-stroke: #12161d;
+  --outline-stroke: #5f7391;
+  --active-stroke: #eef1f6;
+  --party-D: #4b87d2;
+  --party-R: #d85d5e;
+  --party-I: #7bb35c;
+  --party-O: #9c7fc6;
+  --party-vacant: #475163;
+  --party-D-text: #8dbbef;
+  --party-R-text: #f0a0a0;
+  --party-I-text: #a5d38b;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+body { margin: 0; background: var(--bg); }
+main { max-width: 1000px; margin: 0 auto; padding: 1.25rem 1rem 3rem; }
+h1, h2, h3 { color: var(--text-strong); font-weight: 600; }
 h3 { margin-top: 1.5rem; }
+a { color: var(--link); text-decoration-color: color-mix(in srgb, var(--link) 40%, transparent); transition: color 0.15s; }
+a:hover { color: var(--link-hover); }
+::selection { background: color-mix(in srgb, var(--link) 35%, transparent); }
+
+/* National map */
+.state { fill: var(--map-fill); stroke: var(--map-stroke); stroke-width: 0.8; cursor: pointer; transition: fill 0.18s ease; }
+.state:hover, .state:focus { fill: var(--map-hover); outline: none; }
+.state-outline { fill: var(--map-fill); stroke: var(--outline-stroke); stroke-width: 1.5; }
+
+/* State map */
+.district { stroke: var(--map-stroke); stroke-width: 0.8; transition: filter 0.18s ease, stroke 0.18s ease; }
+.district.active { stroke: var(--active-stroke); stroke-width: 2; filter: brightness(1.15); }
+.party-fill-D, .swatch.party-fill-D { fill: var(--party-D); background: var(--party-D); }
+.party-fill-R, .swatch.party-fill-R { fill: var(--party-R); background: var(--party-R); }
+.party-fill-I, .swatch.party-fill-I { fill: var(--party-I); background: var(--party-I); }
+.party-fill-O, .swatch.party-fill-O { fill: var(--party-O); background: var(--party-O); }
+.party-fill-vacant, .swatch.party-fill-vacant { fill: var(--party-vacant); background: var(--party-vacant); }
+.legend { list-style: none; display: flex; flex-wrap: wrap; gap: 1.25rem; padding: 0; margin: 0.5rem 0; color: var(--muted); }
+.swatch { display: inline-block; width: 0.9rem; height: 0.9rem; border-radius: 3px; vertical-align: -2px; }
+
+/* Tables */
+table { width: 100%; border-collapse: collapse; background: var(--surface); border-radius: 8px; overflow: hidden; }
+th { color: var(--muted); font-weight: 500; font-size: 0.85rem; }
+th, td { text-align: left; padding: 0.55rem 0.75rem; border-bottom: 1px solid var(--border); }
+tbody tr:last-child td { border-bottom: none; }
+tbody tr { transition: background 0.15s ease; }
+tbody tr:hover, tr.active { background: var(--surface-hover); }
+.party { font-size: 0.85rem; white-space: nowrap; }
+.party-D { color: var(--party-D-text); }
+.party-R { color: var(--party-R-text); }
+.party-I { color: var(--party-I-text); }
+
+/* Controls and notes */
+nav[aria-label="Pagination"] { display: flex; gap: 1rem; align-items: center; margin-top: 0.75rem; color: var(--muted); }
+button { background: var(--surface); color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 0.35rem 0.8rem; font: inherit; cursor: pointer; transition: background 0.15s, border-color 0.15s; }
+button:hover:not(:disabled) { background: var(--surface-hover); border-color: var(--outline-stroke); }
+button:disabled { opacity: 0.45; cursor: default; }
+:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+.asof, .todo { color: var(--muted); font-size: 0.9rem; }
+[role="alert"] { color: var(--party-R-text); }
