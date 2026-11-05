@@ -4,12 +4,15 @@
   "type": "module",
   "scripts": {
     "fetch:bills": "tsx src/fetch-priority-bills.ts",
-    "capture:fixture": "tsx src/capture-fixture.ts",
     "typecheck": "tsc --noEmit",
-    "test": "vitest run"
+    "test": "vitest run",
+    "build:members": "tsx src/build-members.ts",
+    "build:geo": "tsx src/build-geo.ts",
+    "validate": "tsx src/run-validate.ts"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
+    "mapshaper": "^0.7.101",
     "tsx": "^4.19.0",
     "typescript": "^5.7.0",
     "vitest": "^5.1.0"

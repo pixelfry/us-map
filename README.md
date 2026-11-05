@@ -12,7 +12,11 @@ Stack: React + Vite + TypeScript frontend; Node/TypeScript pipeline; Congress.go
     npm run dev          # web app on localhost
     npm test             # pipeline + web tests
     npm run build
+    npm run pipeline:members # refresh data/generated/members.json (no key needed)
+    npm run pipeline:validate # cross-check members against district plans
     npm run pipeline:bills   # refresh data/generated/priority-bills.json from the Congress.gov API
 
 Set `CONGRESS_API_KEY` (free: https://api.congress.gov/sign-up/) in `.env`/the shell. Without it the job uses the rate-limited DEMO_KEY.
 GovTrack was dropped as a source because Cloudflare blocks automated fetches (docs/govtrack-blocked.md).
+
+District boundary and member data: see docs/district-data.md.

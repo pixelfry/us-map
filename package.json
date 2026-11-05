@@ -2,11 +2,16 @@
   "name": "us-map",
   "private": true,
   "type": "module",
-  "workspaces": ["web", "pipeline"],
+  "workspaces": [
+    "web",
+    "pipeline"
+  ],
   "scripts": {
     "pipeline:bills": "npm run -w pipeline fetch:bills",
     "test": "npm run -w pipeline test && npm run -w web test",
     "dev": "npm run -w web dev",
-    "build": "npm run -w web build"
+    "build": "npm run -w web build",
+    "pipeline:members": "npm run -w pipeline build:members",
+    "pipeline:validate": "npm run -w pipeline validate"
   }
 }

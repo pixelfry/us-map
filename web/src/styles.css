@@ -7,3 +7,16 @@ table { width: 100%; border-collapse: collapse; }
 th, td { text-align: left; padding: 0.4rem 0.5rem; border-bottom: 1px solid #e3e3e8; }
 nav[aria-label="Pagination"] { display: flex; gap: 1rem; align-items: center; margin-top: 0.75rem; }
 .asof, .todo { color: #666; font-size: 0.9rem; }
+.district { stroke: #fff; stroke-width: 0.8; transition: opacity 0.1s; }
+.district.active { stroke: #111; stroke-width: 2; }
+.party-fill-D, .swatch.party-fill-D { fill: #2f6db5; background: #2f6db5; }
+.party-fill-R, .swatch.party-fill-R { fill: #c5393a; background: #c5393a; }
+.party-fill-I, .swatch.party-fill-I { fill: #6a9a4a; background: #6a9a4a; }
+.party-fill-O { fill: #8a6bb0; }
+.party-fill-vacant, .swatch.party-fill-vacant { fill: #bbb; background: #bbb; }
+.legend { list-style: none; display: flex; gap: 1.25rem; padding: 0; margin: 0.5rem 0; }
+.swatch { display: inline-block; width: 0.9rem; height: 0.9rem; border-radius: 2px; vertical-align: -2px; }
+.party { font-size: 0.85rem; white-space: nowrap; }
+.party-D { color: #1f4f8a; } .party-R { color: #a02a2b; } .party-I { color: #44702c; }
+tr.active { background: #f3f6fb; }
+h3 { margin-top: 1.5rem; }
