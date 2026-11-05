@@ -1,0 +1,11 @@
+node_modules/
+.svelte-kit/
+build/
+dist/
+.env
+.env.*
+!.env.example
+*.log
+# raw downloads and generated artifacts are rebuilt by the pipeline, not versioned
+data/raw/
+data/cache/
