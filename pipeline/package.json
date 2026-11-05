@@ -8,7 +8,10 @@
     "test": "vitest run",
     "build:members": "tsx src/build-members.ts",
     "build:geo": "tsx src/build-geo.ts",
-    "validate": "tsx src/run-validate.ts"
+    "validate": "tsx src/run-validate.ts",
+    "build:geo:tiger": "tsx src/build-geo-tiger.ts",
+    "diff:plans": "tsx src/plan-diff.ts",
+    "build:incoming": "tsx src/build-incoming.ts"
   },
   "devDependencies": {
     "@types/d3-geo": "^3.1.1",

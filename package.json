@@ -12,6 +12,7 @@
     "dev": "npm run -w web dev",
     "build": "npm run -w web build",
     "pipeline:members": "npm run -w pipeline build:members",
-    "pipeline:validate": "npm run -w pipeline validate"
+    "pipeline:validate": "npm run -w pipeline validate",
+    "pipeline:incoming": "npm run -w pipeline build:incoming"
   }
 }

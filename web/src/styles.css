@@ -20,6 +20,7 @@
   --party-I: #7bb35c;
   --party-O: #9c7fc6;
   --party-vacant: #475163;
+  --party-undecided: #a98a3d;
   --party-D-text: #8dbbef;
   --party-R-text: #f0a0a0;
   --party-I-text: #a5d38b;
@@ -72,3 +73,18 @@ button:disabled { opacity: 0.45; cursor: default; }
 :focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
 .asof, .todo { color: var(--muted); font-size: 0.9rem; }
 [role="alert"] { color: var(--party-R-text); }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border); padding: 0.6rem 1rem; }
+.site-header .bar { display: flex; flex-wrap: wrap; gap: 0.75rem 1.5rem; align-items: center; justify-content: space-between; max-width: 1000px; margin: 0 auto; }
+.brand { color: var(--text-strong); font-weight: 600; font-size: 1.1rem; text-decoration: none; }
+.toggle { display: inline-flex; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 3px; gap: 2px; }
+.toggle button { background: transparent; border: none; border-radius: 6px; color: var(--muted); padding: 0.35rem 0.9rem; }
+.toggle button:hover:not(:disabled) { background: var(--surface-hover); color: var(--text); border: none; }
+.toggle button[aria-pressed="true"] { background: var(--map-hover); color: var(--text-strong); }
+.balance { max-width: 1000px; margin: 0.5rem auto 0; font-size: 0.9rem; color: var(--text); }
+.balance .sep { color: var(--border); margin: 0 0.5rem; }
+.muted { color: var(--muted); }
+.provisional { max-width: 1000px; margin: 0.4rem auto 0; font-size: 0.82rem; color: #d9b45f; }
+.party-fill-undecided, .swatch.party-fill-undecided { fill: var(--party-undecided); background: var(--party-undecided); }
+tr.undecided td { color: #d9b45f; }

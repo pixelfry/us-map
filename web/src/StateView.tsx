@@ -1,9 +1,12 @@
 import { useEffect, useState } from "react";
 import { geoMercator, geoPath } from "d3-geo";
+import type { Topology } from "topojson-specification";
 import { Link, useParams } from "react-router-dom";
+import { loadTopology as defaultLoadTopology, useData, type LoadTopology } from "./data";
+import { useViewMode } from "./mode";
 import {
-  PARTY_NAME, buildRows, districtFeatures, electionText, formatDate, loadStateData,
-  type LoadStateData, type Member, type PartyCode, type StateData,
+  DELEGATE_STATES, PARTY_NAME, buildRows, districtFeatures, electionText, formatDate, linesChanged, membersFor, planForMode, undecidedFor,
+  type Member, type PartyCode, type StateData, type UndecidedSeat,
 } from "./stateData";
 
 const W = 640;
@@ -17,25 +20,30 @@ function PartyBadge({ code }: { code: PartyCode }) {
   return <span className={`party party-${code}`}>{code} · {PARTY_NAME[code]}</span>;
 }
 
+function Candidates({ u }: { u: UndecidedSeat }) {
+  return <>{u.candidates.map((c) => `${c.name} (${c.party_code})`).join(" vs. ")}</>;
+}
+
 function StateBody({ data }: { data: StateData }) {
   const [hover, setHover] = useState<number | null>(null);
-  const { state, plan, topology } = data;
+  const { state, plan, topology, mode } = data;
   const { senators, reps } = buildRows(data);
   const collection = districtFeatures(topology);
   // Alaska's Aleutians cross the antimeridian; rotate so the whole state sits together.
   const projection = geoMercator().rotate(state.postal === "AK" ? [154, 0] : [0, 0]).fitSize([W, H], collection);
   const path = geoPath(projection);
-  const memberByDistrict = new Map(reps.map((r) => [r.district, r.member]));
-  const anyHeld = data.members.some((m) => m.election_status === "held");
+  const rowByDistrict = new Map(reps.map((r) => [r.district, r]));
+  const anyHeld = mode === "current" && data.members.some((m) => m.election_status === "held");
+  const isDelegate = DELEGATE_STATES.has(state.postal);
 
   return (
     <>
       <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label={`Congressional districts of ${state.name}, colored by party`} style={{ width: "100%", maxHeight: "60vh" }}>
         {collection.features.map((f) => {
           const d = f.properties.district;
-          const member = memberByDistrict.get(d) ?? null;
-          const cls = member ? `party-fill-${member.party_code}` : "party-fill-vacant";
-          const row = reps.find((r) => r.district === d)!;
+          const row = rowByDistrict.get(d)!;
+          const cls = row.member ? `party-fill-${row.member.party_code}` : row.undecided ? "party-fill-undecided" : "party-fill-vacant";
+          const who = row.member ? `${row.member.name} (${row.member.party_code})` : row.undecided ? "Undecided" : "Vacant";
           return (
             <path
               key={d}
@@ -44,7 +52,7 @@ function StateBody({ data }: { data: StateData }) {
               onMouseEnter={() => setHover(d)}
               onMouseLeave={() => setHover(null)}
             >
-              <title>{`${row.label}: ${member ? `${member.name} (${member.party_code})` : "Vacant"}`}</title>
+              <title>{`${row.label}: ${who}`}</title>
             </path>
           );
         })}
@@ -53,38 +61,49 @@ function StateBody({ data }: { data: StateData }) {
         {(["D", "R", "I"] as PartyCode[]).map((c) => (
           <li key={c}><span className={`swatch party-fill-${c}`} /> {PARTY_NAME[c]}</li>
         ))}
-        <li><span className="swatch party-fill-vacant" /> Vacant</li>
+        {mode === "incoming" ? (
+          <li><span className="swatch party-fill-undecided" /> Undecided</li>
+        ) : (
+          <li><span className="swatch party-fill-vacant" /> Vacant</li>
+        )}
       </ul>
       <p className="asof">
         District lines: {plan.source}, {plan.effective_congress}th Congress ({plan.plan_id}).
+        {mode === "incoming" && (data.linesChanged ? " This state's lines changed for the 2026 election." : " This state's lines are unchanged from the current Congress.")}
       </p>
 
       <h3>Senators</h3>
       <table aria-label="Senators">
         <thead>
-          <tr><th>Name</th><th>Party</th><th>Class</th><th>Term ends</th><th>Election</th></tr>
+          <tr><th>Name</th><th>Party</th><th>Class</th><th>Term ends</th><th>{mode === "incoming" ? "Next election" : "Election"}</th></tr>
         </thead>
         <tbody>
-          {senators.map((m) => (
-            <tr key={m.bioguide_id}>
-              <td><MemberName m={m} /></td>
-              <td><PartyBadge code={m.party_code} /></td>
-              <td>{m.senate_class}</td>
-              <td>{formatDate(m.term_end)}</td>
-              <td>{electionText(m)}</td>
-            </tr>
-          ))}
+          {senators.map((r) =>
+            r.member ? (
+              <tr key={r.key}>
+                <td><MemberName m={r.member} /></td>
+                <td><PartyBadge code={r.member.party_code} /></td>
+                <td>{r.member.senate_class}</td>
+                <td>{formatDate(r.member.term_end)}</td>
+                <td>{electionText(r.member)}</td>
+              </tr>
+            ) : (
+              <tr key={r.key} className="undecided">
+                <td colSpan={5}>Undecided: <Candidates u={r.undecided!} /></td>
+              </tr>
+            ),
+          )}
         </tbody>
       </table>
 
-      <h3>{state.postal === "DC" || ["PR", "GU", "VI", "AS", "MP"].includes(state.postal) ? "Delegate" : "Representatives"}</h3>
+      <h3>{isDelegate ? "Delegate" : "Representatives"}</h3>
       <table aria-label="Representatives">
         <thead>
-          <tr><th>District</th><th>Name</th><th>Party</th><th>Term ends</th><th>Election</th></tr>
+          <tr><th>District</th><th>Name</th><th>Party</th><th>Term ends</th><th>{mode === "incoming" ? "Next election" : "Election"}</th></tr>
         </thead>
         <tbody>
           {reps.map((r) => (
-            <tr key={r.district} className={hover === r.district ? "active" : ""} onMouseEnter={() => setHover(r.district)} onMouseLeave={() => setHover(null)}>
+            <tr key={r.district} className={`${hover === r.district ? "active" : ""}${r.undecided ? " undecided" : ""}`} onMouseEnter={() => setHover(r.district)} onMouseLeave={() => setHover(null)}>
               <td>{r.label}</td>
               {r.member ? (
                 <>
@@ -93,6 +112,8 @@ function StateBody({ data }: { data: StateData }) {
                   <td>{formatDate(r.member.term_end)}</td>
                   <td>{electionText(r.member)}</td>
                 </>
+              ) : r.undecided ? (
+                <td colSpan={4}>Undecided: <Candidates u={r.undecided} /></td>
               ) : (
                 <td colSpan={4}>Vacant</td>
               )}
@@ -103,30 +124,50 @@ function StateBody({ data }: { data: StateData }) {
       {anyHeld && (
         <p className="todo">
           Elections marked "held" have already taken place. This roster comes from the sitting-member list and does not
-          show results; it changes when new members are sworn in.
+          show results; switch to "Incoming" for the winners.
         </p>
       )}
     </>
   );
 }
 
-export function StateView({ load = loadStateData }: { load?: LoadStateData }) {
+export function StateView({ loadTopology = defaultLoadTopology }: { loadTopology?: LoadTopology }) {
   const { fips = "" } = useParams();
-  const [data, setData] = useState<StateData | null>(null);
+  const { mode } = useViewMode();
+  const all = useData();
+  const [topology, setTopology] = useState<{ planId: string; topo: Topology } | null>(null);
   const [error, setError] = useState<string | null>(null);
 
+  const ready = all.status === "ready" ? all.data : null;
+  const state = ready?.states.find((s) => s.fips === fips) ?? null;
+  const plan = ready && state ? planForMode(ready.plans, state.postal, mode) : null;
+
   useEffect(() => {
-    setData(null);
+    if (!plan) return;
     setError(null);
-    load(fips).then(setData, (e) => setError(String(e.message ?? e)));
-  }, [fips, load]);
+    loadTopology(plan).then((topo) => setTopology({ planId: plan.plan_id, topo }), (e) => setError(String(e?.message ?? e)));
+  }, [plan?.plan_id, loadTopology]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  let body: React.ReactNode = null;
+  if (all.status === "error") body = <p role="alert">Could not load this state: {all.error}</p>;
+  else if (ready && !state) body = <p role="alert">Unknown state code {fips}.</p>;
+  else if (ready && state && !plan) body = <p role="alert">No district plan for {state.postal}.</p>;
+  else if (error) body = <p role="alert">Could not load this state: {error}</p>;
+  else if (ready && state && plan && topology && topology.planId === plan.plan_id) {
+    const data: StateData = {
+      state, mode, plan, topology: topology.topo,
+      members: membersFor(ready, mode).filter((m) => m.state === state.postal),
+      undecided: undecidedFor(ready, mode).filter((u) => u.state === state.postal),
+      linesChanged: linesChanged(ready.diff, state.postal),
+    };
+    body = <StateBody data={data} />;
+  }
 
   return (
     <section>
       <p><Link to="/">← All states</Link></p>
-      <h2>{data?.state.name ?? "Loading…"}</h2>
-      {error && <p role="alert">Could not load this state: {error}</p>}
-      {data && <StateBody data={data} />}
+      <h2>{state?.name ?? "Loading…"}</h2>
+      {body}
     </section>
   );
 }

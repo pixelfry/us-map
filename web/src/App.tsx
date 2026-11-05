@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import { BillsTable } from "./BillsTable";
+import { DataProvider, type LoadAll, type LoadTopology } from "./data";
+import { Header } from "./Header";
+import { ViewModeProvider } from "./mode";
 import { StateView } from "./StateView";
 import { UsMap } from "./UsMap";
 import type { FetchBills, PriorityBillsFile } from "./types";
@@ -33,14 +36,19 @@ function Landing({ load = fetchBills }: { load?: FetchBills }) {
   );
 }
 
-export default function App() {
+/** App shell. The header sits outside <Routes>, so it stays mounted (with its state) as pages change. */
+export default function App({ loadData, loadTopology }: { loadData?: LoadAll; loadTopology?: LoadTopology } = {}) {
   return (
-    <main>
-      <h1>US Congress Map</h1>
-      <Routes>
-        <Route path="/" element={<Landing />} />
-        <Route path="/state/:fips" element={<StateView />} />
-      </Routes>
-    </main>
+    <ViewModeProvider>
+      <DataProvider load={loadData}>
+        <Header />
+        <main>
+          <Routes>
+            <Route path="/" element={<Landing />} />
+            <Route path="/state/:fips" element={<StateView loadTopology={loadTopology} />} />
+          </Routes>
+        </main>
+      </DataProvider>
+    </ViewModeProvider>
   );
 }
